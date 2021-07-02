@@ -1,2 +1,2 @@
-# OpenFoam_heatTrf_YouTube
+# OpenFoam_heatTrf
 Tutorial Files for OpenFoam Heat Transfer
