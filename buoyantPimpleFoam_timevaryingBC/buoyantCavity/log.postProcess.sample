@@ -1,0 +1,47 @@
+/*---------------------------------------------------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  v2012                                 |
+|   \\  /    A nd           | Website:  www.openfoam.com                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+Build  : _7bdb509494-20201222 OPENFOAM=2012
+Arch   : "LSB;label=32;scalar=64"
+Exec   : postProcess -latestTime -func sample
+Date   : Jul 21 2021
+Time   : 22:52:41
+Host   : DESKTOP-DOBVM7I
+PID    : 1088
+I/O    : uncollated
+Case   : /mnt/c/Users/TSam/tutorials/heatTransfer/buoyantSimpleFoam/buoyantCavity
+nProcs : 1
+trapFpe: Floating point exception trapping enabled (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 5, maxFileModificationPolls 20)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Create mesh for time = 1000
+
+Reading set description:
+    y0.1
+    y0.2
+    y0.3
+    y0.4
+    y0.5
+    y0.6
+    y0.7
+    y0.8
+    y0.9
+
+Time = 1000
+
+Reading fields:
+    volScalarField: T
+    volVectorField: U
+
+Executing functionObjects
+
+End
+
