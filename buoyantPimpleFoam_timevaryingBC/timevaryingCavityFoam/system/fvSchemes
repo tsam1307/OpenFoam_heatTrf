@@ -16,7 +16,7 @@ FoamFile
 
 ddtSchemes
 {
-    default steadyState;
+    default 		Euler;
 }
 
 gradSchemes
@@ -35,6 +35,11 @@ divSchemes
     div(phi,epsilon) bounded Gauss limitedLinear 0.2;
     div(phi,omega) bounded Gauss limitedLinear 0.2;
     div(((rho*nuEff)*dev2(T(grad(U))))) Gauss linear;
+    div(phi,R)      Gauss upwind;
+    div(phi,e)      Gauss upwind;
+    div(phi,Ekp)    Gauss linear;
+    div(R)          Gauss linear;
+    div(Ji,Ii_h)    Gauss linearUpwind grad(Ii_h);
 }
 
 laplacianSchemes
@@ -49,7 +54,7 @@ interpolationSchemes
 
 snGradSchemes
 {
-    default         orthogonal;
+    default         corrected;
 }
 
 wallDist

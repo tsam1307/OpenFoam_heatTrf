@@ -1,0 +1,176 @@
+/*---------------------------------------------------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  v2012                                 |
+|   \\  /    A nd           | Website:  www.openfoam.com                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+Build  : _7bdb509494-20201222 OPENFOAM=2012
+Arch   : "LSB;label=32;scalar=64"
+Exec   : buoyantPimpleFoam
+Date   : Aug 11 2021
+Time   : 23:18:57
+Host   : DESKTOP-DOBVM7I
+PID    : 1881
+I/O    : uncollated
+Case   : /mnt/c/Users/TSam/GitHub_OpenFOAM/OpenFoam_heatTrf/buoyantPimpleFoam_timevaryingBC/timevaryingCavityFoam
+nProcs : 1
+trapFpe: Floating point exception trapping enabled (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 5, maxFileModificationPolls 20)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Create mesh for time = 0
+
+
+PIMPLE: Operating solver in PISO mode
+
+Reading thermophysical properties
+
+Selecting thermodynamics package 
+{
+    type            heRhoThermo;
+    mixture         pureMixture;
+    transport       const;
+    thermo          hConst;
+    equationOfState perfectGas;
+    specie          specie;
+    energy          sensibleEnthalpy;
+}
+
+Reading field U
+
+Reading/calculating face flux field phi
+
+Creating turbulence model
+
+Selecting turbulence model type RAS
+Selecting RAS turbulence model kOmegaSST
+Selecting patchDistMethod meshWave
+RAS
+{
+    RASModel        kOmegaSST;
+    turbulence      on;
+    printCoeffs     on;
+    alphaK1         0.85;
+    alphaK2         1;
+    alphaOmega1     0.5;
+    alphaOmega2     0.856;
+    gamma1          0.555556;
+    gamma2          0.44;
+    beta1           0.075;
+    beta2           0.0828;
+    betaStar        0.09;
+    a1              0.31;
+    b1              1;
+    c1              10;
+    F3              false;
+    decayControl    false;
+    kInf            0;
+    omegaInf        0;
+}
+
+
+Reading g
+
+Reading hRef
+Calculating field g.h
+
+Reading field p_rgh
+
+Creating field dpdt
+
+Creating field kinetic energy K
+
+No MRF models present
+
+Radiation model not active: radiationProperties not found
+Selecting radiationModel none
+No finite volume options present
+Courant Number mean: 0 max: 0
+
+Starting time loop
+
+Courant Number mean: 0 max: 0
+deltaT = 0.0120048
+Time = 0.0120048
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+PIMPLE: iteration 1
+DICPCG:  Solving for p_rgh, Initial residual = 0.0865626, Final residual = 0.00078629, No Iterations 168
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 2.18479e-05, global = 5.55091e-13, cumulative = 5.55091e-13
+DICPCG:  Solving for p_rgh, Initial residual = 0.081842, Final residual = 9.57771e-08, No Iterations 263
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 3.77232e-05, global = 5.41291e-13, cumulative = 1.09638e-12
+ExecutionTime = 2.44 s  ClockTime = 3 s
+
+Courant Number mean: 0.00417312 max: 1.23875
+deltaT = 0.0139497
+Time = 0.0259545
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+PIMPLE: iteration 1
+DICPCG:  Solving for p_rgh, Initial residual = 0.112802, Final residual = 0.00111929, No Iterations 210
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 0.000119312, global = 7.81062e-15, cumulative = 1.10419e-12
+DICPCG:  Solving for p_rgh, Initial residual = 0.138752, Final residual = 9.69905e-08, No Iterations 312
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 6.04274e-05, global = 2.24187e-16, cumulative = 1.10442e-12
+ExecutionTime = 4 s  ClockTime = 4 s
+
+Courant Number mean: 0.00433863 max: 2.11368
+deltaT = 0.0131932
+Time = 0.0391477
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+PIMPLE: iteration 1
+DICPCG:  Solving for p_rgh, Initial residual = 0.345328, Final residual = 0.00326112, No Iterations 197
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 2.2467e-05, global = -7.72588e-15, cumulative = 1.09669e-12
+DICPCG:  Solving for p_rgh, Initial residual = 0.0863103, Final residual = 8.85174e-08, No Iterations 301
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 2.89588e-06, global = 2.16056e-15, cumulative = 1.09885e-12
+ExecutionTime = 5.46 s  ClockTime = 6 s
+
+Courant Number mean: 0.00382316 max: 0.129909
+deltaT = 0.015836
+Time = 0.0549837
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+PIMPLE: iteration 1
+DICPCG:  Solving for p_rgh, Initial residual = 0.0751237, Final residual = 0.000682623, No Iterations 195
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 2.39507e-05, global = 3.49234e-15, cumulative = 1.10234e-12
+DICPCG:  Solving for p_rgh, Initial residual = 0.0484966, Final residual = 9.04855e-08, No Iterations 299
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 1.19507e-05, global = -8.75873e-16, cumulative = 1.10147e-12
+ExecutionTime = 6.97 s  ClockTime = 7 s
+
+Courant Number mean: 0.00473909 max: 0.414554
+deltaT = 0.0190153
+Time = 0.073999
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+PIMPLE: iteration 1
+DICPCG:  Solving for p_rgh, Initial residual = 0.0976287, Final residual = 0.000959553, No Iterations 195
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 8.25957e-06, global = -4.51597e-15, cumulative = 1.09695e-12
+DICPCG:  Solving for p_rgh, Initial residual = 0.0329477, Final residual = 8.85531e-08, No Iterations 276
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 1.38202e-06, global = -6.13711e-15, cumulative = 1.09082e-12
+ExecutionTime = 8.41 s  ClockTime = 9 s
+
+Courant Number mean: 0.00520968 max: 0.134468
+deltaT = 0.0228184
+Time = 0.0968174
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+PIMPLE: iteration 1
+DICPCG:  Solving for p_rgh, Initial residual = 0.0542178, Final residual = 0.000531091, No Iterations 192
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 2.7703e-06, global = -6.41747e-15, cumulative = 1.0844e-12
+DICPCG:  Solving for p_rgh, Initial residual = 0.049654, Final residual = 9.06218e-08, No Iterations 298
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0

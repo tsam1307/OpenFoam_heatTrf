@@ -5,11 +5,6 @@ cd "${0%/*}" || exit                                # Run from this directory
 
 runApplication blockMesh
 runApplication $(getApplication)
-runApplication -s sample  postProcess -latestTime -func sample
 
-if notTest "$@"
-then
-    runApplication validation/createGraphs
-fi
 
 #------------------------------------------------------------------------------
