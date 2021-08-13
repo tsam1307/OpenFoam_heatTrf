@@ -11,45 +11,35 @@ FoamFile
     format      ascii;
     class       volScalarField;
     location    "0";
-    object      T;
+    object      epsilon;
 }
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-dimensions      [0 0 0 1 0 0 0];
+dimensions      [0 2 -3 0 0 0 0];
 
-internalField   uniform 293;
+internalField   uniform 0.0495;
 
 boundaryField
 {
-    frontAndBack
-    {
-        type            zeroGradient;
-    }
+    #includeEtc "caseDicts/setConstraintTypes"
 
-    topAndBottom
-    {
-        type            zeroGradient;
-    }
-
-    hot
-    {
-	type            uniformFixedValue;
-	uniformValue
-        {
-            type            csvFile;
-            nHeaderLine     1;
-            refColumn       0;
-            componentColumns ( 1 );
-            separator       ",";
-            mergeSeparators no;
-            file            "<constant>/temp_profile.csv";
-        }
-    }
-
-    cold
+    inlet
     {
         type            fixedValue;
-        value           uniform 300;
+        value           $internalField;
+    }
+
+    outlet
+    {
+        type            inletOutlet;
+        inletValue      $internalField;
+        value           $internalField;
+    }
+
+    wall
+    {
+        type            epsilonWallFunction;
+        value           $internalField;
     }
 }
 

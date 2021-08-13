@@ -11,45 +11,34 @@ FoamFile
     format      ascii;
     class       volScalarField;
     location    "0";
-    object      T;
+    object      nut;
 }
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-dimensions      [0 0 0 1 0 0 0];
+dimensions      [0 2 -1 0 0 0 0];
 
-internalField   uniform 293;
+internalField   uniform 0;
 
 boundaryField
 {
-    frontAndBack
+    #includeEtc "caseDicts/setConstraintTypes"
+
+    inlet
     {
-        type            zeroGradient;
+        type            calculated;
+        value           uniform 0;
     }
 
-    topAndBottom
+    outlet
     {
-        type            zeroGradient;
+        type            calculated;
+        value           uniform 0;
     }
 
-    hot
+    wall
     {
-	type            uniformFixedValue;
-	uniformValue
-        {
-            type            csvFile;
-            nHeaderLine     1;
-            refColumn       0;
-            componentColumns ( 1 );
-            separator       ",";
-            mergeSeparators no;
-            file            "<constant>/temp_profile.csv";
-        }
-    }
-
-    cold
-    {
-        type            fixedValue;
-        value           uniform 300;
+        type            nutkWallFunction;
+        value           uniform 0;
     }
 }
 

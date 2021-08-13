@@ -9,49 +9,21 @@ FoamFile
 {
     version     2.0;
     format      ascii;
-    class       volScalarField;
-    location    "0";
-    object      T;
+    class       dictionary;
+    location    "80/uniform";
+    object      time;
 }
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-dimensions      [0 0 0 1 0 0 0];
+value           80;
 
-internalField   uniform 293;
+name            "80";
 
-boundaryField
-{
-    frontAndBack
-    {
-        type            zeroGradient;
-    }
+index           170;
 
-    topAndBottom
-    {
-        type            zeroGradient;
-    }
+deltaT          1.11111;
 
-    hot
-    {
-	type            uniformFixedValue;
-	uniformValue
-        {
-            type            csvFile;
-            nHeaderLine     1;
-            refColumn       0;
-            componentColumns ( 1 );
-            separator       ",";
-            mergeSeparators no;
-            file            "<constant>/temp_profile.csv";
-        }
-    }
-
-    cold
-    {
-        type            fixedValue;
-        value           uniform 300;
-    }
-}
+deltaT0         1.11111;
 
 
 // ************************************************************************* //

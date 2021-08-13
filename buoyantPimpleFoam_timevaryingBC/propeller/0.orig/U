@@ -9,47 +9,42 @@ FoamFile
 {
     version     2.0;
     format      ascii;
-    class       volScalarField;
+    class       volVectorField;
     location    "0";
-    object      T;
+    object      U;
 }
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-dimensions      [0 0 0 1 0 0 0];
+dimensions      [0 1 -1 0 0 0 0];
 
-internalField   uniform 293;
+internalField   uniform (0 0 0);
 
 boundaryField
 {
-    frontAndBack
-    {
-        type            zeroGradient;
-    }
+    #includeEtc "caseDicts/setConstraintTypes"
 
-    topAndBottom
-    {
-        type            zeroGradient;
-    }
-
-    hot
-    {
-	type            uniformFixedValue;
-	uniformValue
-        {
-            type            csvFile;
-            nHeaderLine     1;
-            refColumn       0;
-            componentColumns ( 1 );
-            separator       ",";
-            mergeSeparators no;
-            file            "<constant>/temp_profile.csv";
-        }
-    }
-
-    cold
+    inlet
     {
         type            fixedValue;
-        value           uniform 300;
+        value           uniform (0 -5 0);
+    }
+
+    outlet
+    {
+        type            inletOutlet;
+        inletValue      uniform (0 0 0);
+        value           uniform (0 0 0);
+    }
+
+    outerCylinder
+    {
+        type            noSlip;
+    }
+
+    "propeller.*"
+    {
+        type            movingWallVelocity;
+        value           uniform (0 0 0);
     }
 }
 

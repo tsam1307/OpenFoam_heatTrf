@@ -9,48 +9,21 @@ FoamFile
 {
     version     2.0;
     format      ascii;
-    class       volScalarField;
-    location    "0";
-    object      T;
+    class       dictionary;
+    location    "constant";
+    object      turbulenceProperties;
 }
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-dimensions      [0 0 0 1 0 0 0];
+simulationType  RAS;
 
-internalField   uniform 293;
-
-boundaryField
+RAS
 {
-    frontAndBack
-    {
-        type            zeroGradient;
-    }
+    RASModel        kEpsilon;
 
-    topAndBottom
-    {
-        type            zeroGradient;
-    }
+    turbulence      on;
 
-    hot
-    {
-	type            uniformFixedValue;
-	uniformValue
-        {
-            type            csvFile;
-            nHeaderLine     1;
-            refColumn       0;
-            componentColumns ( 1 );
-            separator       ",";
-            mergeSeparators no;
-            file            "<constant>/temp_profile.csv";
-        }
-    }
-
-    cold
-    {
-        type            fixedValue;
-        value           uniform 300;
-    }
+    printCoeffs     on;
 }
 
 

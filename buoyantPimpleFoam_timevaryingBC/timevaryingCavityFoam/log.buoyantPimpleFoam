@@ -8,10 +8,10 @@
 Build  : _7bdb509494-20201222 OPENFOAM=2012
 Arch   : "LSB;label=32;scalar=64"
 Exec   : buoyantPimpleFoam
-Date   : Aug 11 2021
-Time   : 23:18:57
+Date   : Aug 13 2021
+Time   : 14:34:00
 Host   : DESKTOP-DOBVM7I
-PID    : 1881
+PID    : 1827
 I/O    : uncollated
 Case   : /mnt/c/Users/TSam/GitHub_OpenFOAM/OpenFoam_heatTrf/buoyantPimpleFoam_timevaryingBC/timevaryingCavityFoam
 nProcs : 1
@@ -101,76 +101,2587 @@ diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterati
 PIMPLE: iteration 1
 DICPCG:  Solving for p_rgh, Initial residual = 0.0865626, Final residual = 0.00078629, No Iterations 168
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
-time step continuity errors : sum local = 2.18479e-05, global = 5.55091e-13, cumulative = 5.55091e-13
-DICPCG:  Solving for p_rgh, Initial residual = 0.081842, Final residual = 9.57771e-08, No Iterations 263
+time step continuity errors : sum local = 2.18479e-05, global = 5.55094e-13, cumulative = 5.55094e-13
+DICPCG:  Solving for p_rgh, Initial residual = 0.081842, Final residual = 9.57583e-08, No Iterations 263
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
-time step continuity errors : sum local = 3.77232e-05, global = 5.41291e-13, cumulative = 1.09638e-12
-ExecutionTime = 2.44 s  ClockTime = 3 s
+time step continuity errors : sum local = 3.77232e-05, global = 5.45336e-13, cumulative = 1.10043e-12
+ExecutionTime = 2.44 s  ClockTime = 4 s
 
 Courant Number mean: 0.00417312 max: 1.23875
-deltaT = 0.0139497
-Time = 0.0259545
+deltaT = 0.00484619
+Time = 0.016851
 
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 PIMPLE: iteration 1
-DICPCG:  Solving for p_rgh, Initial residual = 0.112802, Final residual = 0.00111929, No Iterations 210
+DICPCG:  Solving for p_rgh, Initial residual = 0.119794, Final residual = 0.00114395, No Iterations 176
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
-time step continuity errors : sum local = 0.000119312, global = 7.81062e-15, cumulative = 1.10419e-12
-DICPCG:  Solving for p_rgh, Initial residual = 0.138752, Final residual = 9.69905e-08, No Iterations 312
+time step continuity errors : sum local = 4.30853e-05, global = 1.1988e-14, cumulative = 1.11242e-12
+DICPCG:  Solving for p_rgh, Initial residual = 0.114302, Final residual = 9.37156e-08, No Iterations 280
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
-time step continuity errors : sum local = 6.04274e-05, global = 2.24187e-16, cumulative = 1.10442e-12
-ExecutionTime = 4 s  ClockTime = 4 s
+time step continuity errors : sum local = 3.74658e-05, global = 2.66756e-15, cumulative = 1.11509e-12
+ExecutionTime = 3.83 s  ClockTime = 6 s
 
-Courant Number mean: 0.00433863 max: 2.11368
-deltaT = 0.0131932
-Time = 0.0391477
-
-diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
-PIMPLE: iteration 1
-DICPCG:  Solving for p_rgh, Initial residual = 0.345328, Final residual = 0.00326112, No Iterations 197
-diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
-time step continuity errors : sum local = 2.2467e-05, global = -7.72588e-15, cumulative = 1.09669e-12
-DICPCG:  Solving for p_rgh, Initial residual = 0.0863103, Final residual = 8.85174e-08, No Iterations 301
-diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
-time step continuity errors : sum local = 2.89588e-06, global = 2.16056e-15, cumulative = 1.09885e-12
-ExecutionTime = 5.46 s  ClockTime = 6 s
-
-Courant Number mean: 0.00382316 max: 0.129909
-deltaT = 0.015836
-Time = 0.0549837
+Courant Number mean: 0.00253335 max: 1.29706
+deltaT = 0.0018681
+Time = 0.0187191
 
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 PIMPLE: iteration 1
-DICPCG:  Solving for p_rgh, Initial residual = 0.0751237, Final residual = 0.000682623, No Iterations 195
+DICPCG:  Solving for p_rgh, Initial residual = 0.415294, Final residual = 0.00412482, No Iterations 122
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
-time step continuity errors : sum local = 2.39507e-05, global = 3.49234e-15, cumulative = 1.10234e-12
-DICPCG:  Solving for p_rgh, Initial residual = 0.0484966, Final residual = 9.04855e-08, No Iterations 299
+time step continuity errors : sum local = 1.50331e-05, global = 6.92503e-15, cumulative = 1.12201e-12
+DICPCG:  Solving for p_rgh, Initial residual = 0.698523, Final residual = 9.96256e-08, No Iterations 252
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
-time step continuity errors : sum local = 1.19507e-05, global = -8.75873e-16, cumulative = 1.10147e-12
-ExecutionTime = 6.97 s  ClockTime = 7 s
+time step continuity errors : sum local = 1.29994e-05, global = 3.66414e-15, cumulative = 1.12567e-12
+ExecutionTime = 5.01 s  ClockTime = 7 s
 
-Courant Number mean: 0.00473909 max: 0.414554
-deltaT = 0.0190153
-Time = 0.073999
-
-diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
-PIMPLE: iteration 1
-DICPCG:  Solving for p_rgh, Initial residual = 0.0976287, Final residual = 0.000959553, No Iterations 195
-diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
-time step continuity errors : sum local = 8.25957e-06, global = -4.51597e-15, cumulative = 1.09695e-12
-DICPCG:  Solving for p_rgh, Initial residual = 0.0329477, Final residual = 8.85531e-08, No Iterations 276
-diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
-time step continuity errors : sum local = 1.38202e-06, global = -6.13711e-15, cumulative = 1.09082e-12
-ExecutionTime = 8.41 s  ClockTime = 9 s
-
-Courant Number mean: 0.00520968 max: 0.134468
-deltaT = 0.0228184
-Time = 0.0968174
+Courant Number mean: 0.000927719 max: 0.456548
+deltaT = 0.00204576
+Time = 0.0207649
 
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
 PIMPLE: iteration 1
-DICPCG:  Solving for p_rgh, Initial residual = 0.0542178, Final residual = 0.000531091, No Iterations 192
+DICPCG:  Solving for p_rgh, Initial residual = 0.612417, Final residual = 0.00602309, No Iterations 138
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
-time step continuity errors : sum local = 2.7703e-06, global = -6.41747e-15, cumulative = 1.0844e-12
-DICPCG:  Solving for p_rgh, Initial residual = 0.049654, Final residual = 9.06218e-08, No Iterations 298
+time step continuity errors : sum local = 1.21097e-05, global = -2.64019e-15, cumulative = 1.12303e-12
+DICPCG:  Solving for p_rgh, Initial residual = 0.23491, Final residual = 9.61701e-08, No Iterations 246
 diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 1.00108e-05, global = 1.88155e-16, cumulative = 1.12322e-12
+ExecutionTime = 6.25 s  ClockTime = 8 s
+
+Courant Number mean: 0.000772702 max: 0.355562
+deltaT = 0.00233323
+Time = 0.0230981
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+PIMPLE: iteration 1
+DICPCG:  Solving for p_rgh, Initial residual = 0.146079, Final residual = 0.00142396, No Iterations 138
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 6.91682e-06, global = -4.45561e-15, cumulative = 1.11877e-12
+DICPCG:  Solving for p_rgh, Initial residual = 0.0677574, Final residual = 9.10155e-08, No Iterations 237
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 5.13557e-06, global = -1.22327e-14, cumulative = 1.10653e-12
+ExecutionTime = 7.42 s  ClockTime = 9 s
+
+Courant Number mean: 0.000456144 max: 0.186876
+deltaT = 0.00280014
+Time = 0.0258982
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+PIMPLE: iteration 1
+DICPCG:  Solving for p_rgh, Initial residual = 0.050048, Final residual = 0.000475384, No Iterations 145
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 5.80645e-07, global = 7.48611e-16, cumulative = 1.10728e-12
+DICPCG:  Solving for p_rgh, Initial residual = 0.0361489, Final residual = 9.41011e-08, No Iterations 249
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 1.78796e-06, global = 4.95934e-15, cumulative = 1.11224e-12
+ExecutionTime = 8.64 s  ClockTime = 11 s
+
+Courant Number mean: 0.000314212 max: 0.0543129
+deltaT = 0.00336055
+Time = 0.0292588
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+PIMPLE: iteration 1
+DICPCG:  Solving for p_rgh, Initial residual = 0.0781602, Final residual = 0.000768052, No Iterations 151
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 1.02242e-05, global = 1.9845e-15, cumulative = 1.11423e-12
+DICPCG:  Solving for p_rgh, Initial residual = 0.0591345, Final residual = 8.70901e-08, No Iterations 261
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 1.00952e-05, global = -1.45145e-15, cumulative = 1.11278e-12
+ExecutionTime = 9.97 s  ClockTime = 12 s
+
+Courant Number mean: 0.000736916 max: 0.342186
+deltaT = 0.00385119
+Time = 0.03311
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+PIMPLE: iteration 1
+DICPCG:  Solving for p_rgh, Initial residual = 0.107382, Final residual = 0.00105227, No Iterations 159
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 1.97523e-05, global = -2.58287e-15, cumulative = 1.11019e-12
+DICPCG:  Solving for p_rgh, Initial residual = 0.0816169, Final residual = 9.93357e-08, No Iterations 269
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 1.73376e-05, global = 6.97951e-15, cumulative = 1.11717e-12
+ExecutionTime = 11.32 s  ClockTime = 13 s
+
+Courant Number mean: 0.00115846 max: 0.55162
+deltaT = 0.00349103
+Time = 0.036601
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+PIMPLE: iteration 1
+DICPCG:  Solving for p_rgh, Initial residual = 0.231045, Final residual = 0.00228679, No Iterations 151
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 1.76814e-05, global = -2.05129e-14, cumulative = 1.09666e-12
+DICPCG:  Solving for p_rgh, Initial residual = 0.614388, Final residual = 9.59735e-08, No Iterations 269
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 1.50284e-05, global = -4.96161e-15, cumulative = 1.0917e-12
+ExecutionTime = 12.65 s  ClockTime = 15 s
+
+Courant Number mean: 0.000963776 max: 0.424779
+deltaT = 0.00390262
+Time = 0.0405036
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+PIMPLE: iteration 1
+DICPCG:  Solving for p_rgh, Initial residual = 0.167717, Final residual = 0.00159364, No Iterations 154
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 1.44396e-05, global = 1.08203e-14, cumulative = 1.10252e-12
+DICPCG:  Solving for p_rgh, Initial residual = 0.0775501, Final residual = 8.85252e-08, No Iterations 262
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 1.1663e-05, global = 1.64597e-15, cumulative = 1.10416e-12
+ExecutionTime = 14 s  ClockTime = 16 s
+
+Courant Number mean: 0.000751782 max: 0.255927
+deltaT = 0.00466487
+Time = 0.0451685
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+PIMPLE: iteration 1
+DICPCG:  Solving for p_rgh, Initial residual = 0.0628572, Final residual = 0.000594274, No Iterations 156
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 6.45638e-06, global = -6.40799e-15, cumulative = 1.09776e-12
+DICPCG:  Solving for p_rgh, Initial residual = 0.0262745, Final residual = 8.98135e-08, No Iterations 263
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 4.09749e-06, global = 5.81051e-15, cumulative = 1.10357e-12
+ExecutionTime = 15.32 s  ClockTime = 17 s
+
+Courant Number mean: 0.000710494 max: 0.597288
+deltaT = 0.00390539
+Time = 0.0490739
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+PIMPLE: iteration 1
+DICPCG:  Solving for p_rgh, Initial residual = 0.103943, Final residual = 0.000997665, No Iterations 167
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 3.54205e-06, global = -1.17897e-14, cumulative = 1.09178e-12
+DICPCG:  Solving for p_rgh, Initial residual = 0.0589969, Final residual = 9.84257e-08, No Iterations 270
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 3.98612e-06, global = -7.42168e-15, cumulative = 1.08435e-12
+ExecutionTime = 16.71 s  ClockTime = 19 s
+
+Courant Number mean: 0.000625758 max: 0.753098
+deltaT = 0.00259274
+Time = 0.0516666
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+PIMPLE: iteration 1
+DICPCG:  Solving for p_rgh, Initial residual = 0.182353, Final residual = 0.00170688, No Iterations 141
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 5.40015e-06, global = 4.53805e-15, cumulative = 1.08889e-12
+DICPCG:  Solving for p_rgh, Initial residual = 0.138845, Final residual = 9.41515e-08, No Iterations 254
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 5.05239e-06, global = 2.03836e-15, cumulative = 1.09093e-12
+ExecutionTime = 17.97 s  ClockTime = 20 s
+
+Courant Number mean: 0.000472059 max: 0.535744
+deltaT = 0.00241993
+Time = 0.0540866
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+PIMPLE: iteration 1
+DICPCG:  Solving for p_rgh, Initial residual = 0.206312, Final residual = 0.0019912, No Iterations 131
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 5.90257e-06, global = -1.15165e-14, cumulative = 1.07941e-12
+DICPCG:  Solving for p_rgh, Initial residual = 0.258536, Final residual = 9.00552e-08, No Iterations 257
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 5.25667e-06, global = -8.69453e-15, cumulative = 1.07072e-12
+ExecutionTime = 19.22 s  ClockTime = 21 s
+
+Courant Number mean: 0.000462668 max: 0.464878
+deltaT = 0.00260296
+Time = 0.0566895
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+PIMPLE: iteration 1
+DICPCG:  Solving for p_rgh, Initial residual = 0.4321, Final residual = 0.00404987, No Iterations 127
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 5.49471e-06, global = 8.31648e-15, cumulative = 1.07904e-12
+DICPCG:  Solving for p_rgh, Initial residual = 0.240017, Final residual = 9.40815e-08, No Iterations 260
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 4.63954e-06, global = 4.74027e-15, cumulative = 1.08378e-12
+ExecutionTime = 20.41 s  ClockTime = 22 s
+
+Courant Number mean: 0.000467797 max: 0.418388
+deltaT = 0.00291422
+Time = 0.0596037
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+PIMPLE: iteration 1
+DICPCG:  Solving for p_rgh, Initial residual = 0.184142, Final residual = 0.0017789, No Iterations 153
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 3.69742e-06, global = -1.03033e-14, cumulative = 1.07347e-12
+DICPCG:  Solving for p_rgh, Initial residual = 0.0931999, Final residual = 9.8633e-08, No Iterations 240
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 2.81187e-06, global = -5.71345e-15, cumulative = 1.06776e-12
+ExecutionTime = 21.71 s  ClockTime = 24 s
+
+Courant Number mean: 0.000456004 max: 0.347285
+deltaT = 0.00333347
+Time = 0.0629372
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+PIMPLE: iteration 1
+DICPCG:  Solving for p_rgh, Initial residual = 0.0734048, Final residual = 0.00073163, No Iterations 155
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 7.62239e-07, global = 1.92678e-14, cumulative = 1.08703e-12
+DICPCG:  Solving for p_rgh, Initial residual = 0.0403526, Final residual = 9.80324e-08, No Iterations 258
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 1.18044e-07, global = 1.7446e-14, cumulative = 1.10447e-12
+ExecutionTime = 23.01 s  ClockTime = 25 s
+
+Courant Number mean: 0.000478754 max: 0.25986
+deltaT = 0.00397483
+Time = 0.066912
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+PIMPLE: iteration 1
+DICPCG:  Solving for p_rgh, Initial residual = 0.0742897, Final residual = 0.000738664, No Iterations 156
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 2.71126e-06, global = -1.48338e-14, cumulative = 1.08964e-12
+DICPCG:  Solving for p_rgh, Initial residual = 0.0614884, Final residual = 9.5721e-08, No Iterations 262
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 2.78796e-06, global = -1.3198e-15, cumulative = 1.08832e-12
+ExecutionTime = 24.36 s  ClockTime = 26 s
+
+Courant Number mean: 0.000566841 max: 0.260454
+deltaT = 0.00473681
+Time = 0.0716488
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+PIMPLE: iteration 1
+DICPCG:  Solving for p_rgh, Initial residual = 0.0946009, Final residual = 0.000915801, No Iterations 153
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 5.29592e-06, global = -1.92968e-14, cumulative = 1.06902e-12
+DICPCG:  Solving for p_rgh, Initial residual = 0.0785156, Final residual = 9.9344e-08, No Iterations 280
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 4.5231e-06, global = -6.02859e-15, cumulative = 1.063e-12
+ExecutionTime = 25.67 s  ClockTime = 28 s
+
+Courant Number mean: 0.000673551 max: 0.289639
+deltaT = 0.00555588
+Time = 0.0772047
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+PIMPLE: iteration 1
+DICPCG:  Solving for p_rgh, Initial residual = 0.140766, Final residual = 0.00138711, No Iterations 163
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 5.3736e-06, global = -4.0424e-15, cumulative = 1.05895e-12
+DICPCG:  Solving for p_rgh, Initial residual = 0.154882, Final residual = 9.78811e-08, No Iterations 283
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 3.9109e-06, global = -1.17721e-14, cumulative = 1.04718e-12
+ExecutionTime = 27.06 s  ClockTime = 29 s
+
+Courant Number mean: 0.000761733 max: 0.308113
+deltaT = 0.00645595
+Time = 0.0836607
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+PIMPLE: iteration 1
+DICPCG:  Solving for p_rgh, Initial residual = 0.1725, Final residual = 0.00168435, No Iterations 150
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 2.42829e-06, global = 2.08133e-14, cumulative = 1.06799e-12
+DICPCG:  Solving for p_rgh, Initial residual = 0.0457769, Final residual = 9.10894e-08, No Iterations 281
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 1.14601e-06, global = 6.60219e-15, cumulative = 1.0746e-12
+ExecutionTime = 28.41 s  ClockTime = 31 s
+
+Courant Number mean: 0.000853989 max: 0.318008
+deltaT = 0.00747275
+Time = 0.0911334
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+PIMPLE: iteration 1
+DICPCG:  Solving for p_rgh, Initial residual = 0.0898729, Final residual = 0.000896888, No Iterations 133
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 1.43574e-06, global = -5.21586e-16, cumulative = 1.07407e-12
+DICPCG:  Solving for p_rgh, Initial residual = 0.0483318, Final residual = 8.87689e-08, No Iterations 291
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 1.50367e-06, global = 7.82584e-15, cumulative = 1.0819e-12
+ExecutionTime = 29.67 s  ClockTime = 32 s
+
+Courant Number mean: 0.000971585 max: 0.313085
+deltaT = 0.00866917
+Time = 0.0998026
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+PIMPLE: iteration 1
+DICPCG:  Solving for p_rgh, Initial residual = 0.108192, Final residual = 0.0010051, No Iterations 174
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 2.78206e-06, global = -1.24854e-14, cumulative = 1.06941e-12
+DICPCG:  Solving for p_rgh, Initial residual = 0.0908183, Final residual = 8.5519e-08, No Iterations 301
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 1.81296e-06, global = -1.83567e-15, cumulative = 1.06758e-12
+ExecutionTime = 31.08 s  ClockTime = 33 s
+
+Courant Number mean: 0.00111118 max: 0.327228
+deltaT = 0.00999011
+Time = 0.109793
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+PIMPLE: iteration 1
+DICPCG:  Solving for p_rgh, Initial residual = 0.104197, Final residual = 0.00100857, No Iterations 163
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 1.19891e-06, global = -2.11072e-15, cumulative = 1.06547e-12
+DICPCG:  Solving for p_rgh, Initial residual = 0.0324501, Final residual = 9.84819e-08, No Iterations 288
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 4.00545e-07, global = 5.03223e-15, cumulative = 1.0705e-12
+ExecutionTime = 32.47 s  ClockTime = 35 s
+
+Courant Number mean: 0.0012609 max: 0.337876
+deltaT = 0.0114736
+Time = 0.121266
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+PIMPLE: iteration 1
+DICPCG:  Solving for p_rgh, Initial residual = 0.0675585, Final residual = 0.000647753, No Iterations 173
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 6.12101e-07, global = -6.64075e-15, cumulative = 1.06386e-12
+DICPCG:  Solving for p_rgh, Initial residual = 0.0347771, Final residual = 9.33724e-08, No Iterations 292
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 5.80092e-07, global = -9.26685e-15, cumulative = 1.05459e-12
+ExecutionTime = 33.94 s  ClockTime = 36 s
+
+Courant Number mean: 0.0014249 max: 0.34049
+deltaT = 0.0131541
+Time = 0.13442
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+PIMPLE: iteration 1
+DICPCG:  Solving for p_rgh, Initial residual = 0.0684611, Final residual = 0.000656738, No Iterations 183
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 8.34233e-07, global = -3.29535e-15, cumulative = 1.0513e-12
+DICPCG:  Solving for p_rgh, Initial residual = 0.0415348, Final residual = 8.70863e-08, No Iterations 298
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 4.30674e-07, global = 1.39541e-15, cumulative = 1.05269e-12
+ExecutionTime = 35.51 s  ClockTime = 38 s
+
+Courant Number mean: 0.00159829 max: 0.342075
+deltaT = 0.015085
+Time = 0.149505
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+PIMPLE: iteration 1
+DICPCG:  Solving for p_rgh, Initial residual = 0.084625, Final residual = 0.000771055, No Iterations 183
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 1.76201e-07, global = 1.45803e-15, cumulative = 1.05415e-12
+DICPCG:  Solving for p_rgh, Initial residual = 0.0470589, Final residual = 9.02916e-08, No Iterations 310
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 1.59148e-08, global = -6.74743e-15, cumulative = 1.0474e-12
+ExecutionTime = 36.92 s  ClockTime = 39 s
+
+Courant Number mean: 0.00178789 max: 0.381919
+deltaT = 0.0170719
+Time = 0.166577
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+PIMPLE: iteration 1
+DICPCG:  Solving for p_rgh, Initial residual = 0.0940293, Final residual = 0.000857472, No Iterations 165
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 1.62684e-07, global = 1.32454e-15, cumulative = 1.04873e-12
+DICPCG:  Solving for p_rgh, Initial residual = 0.0387556, Final residual = 9.39606e-08, No Iterations 311
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 5.36997e-08, global = 1.51098e-14, cumulative = 1.06384e-12
+ExecutionTime = 38.42 s  ClockTime = 41 s
+
+Courant Number mean: 0.00197218 max: 0.399932
+deltaT = 0.0192059
+Time = 0.185783
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+PIMPLE: iteration 1
+DICPCG:  Solving for p_rgh, Initial residual = 0.0735668, Final residual = 0.000726826, No Iterations 170
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 7.69307e-08, global = -8.53679e-15, cumulative = 1.0553e-12
+DICPCG:  Solving for p_rgh, Initial residual = 0.0335739, Final residual = 9.57375e-08, No Iterations 307
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 2.64685e-08, global = -2.7946e-14, cumulative = 1.02736e-12
+ExecutionTime = 39.88 s  ClockTime = 42 s
+
+Courant Number mean: 0.0021667 max: 0.403263
+deltaT = 0.0215697
+Time = 0.207353
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+PIMPLE: iteration 1
+DICPCG:  Solving for p_rgh, Initial residual = 0.0653067, Final residual = 0.000619188, No Iterations 168
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 8.58005e-08, global = 2.55584e-14, cumulative = 1.05291e-12
+DICPCG:  Solving for p_rgh, Initial residual = 0.0336875, Final residual = 9.12675e-08, No Iterations 308
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 3.67156e-08, global = 3.60078e-14, cumulative = 1.08892e-12
+ExecutionTime = 41.59 s  ClockTime = 44 s
+
+Courant Number mean: 0.00237745 max: 0.419889
+deltaT = 0.0241198
+Time = 0.231473
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+PIMPLE: iteration 1
+DICPCG:  Solving for p_rgh, Initial residual = 0.0621562, Final residual = 0.000594977, No Iterations 145
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 6.98258e-08, global = -1.25163e-14, cumulative = 1.07641e-12
+DICPCG:  Solving for p_rgh, Initial residual = 0.0335796, Final residual = 9.9366e-08, No Iterations 311
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 2.14615e-08, global = -2.53704e-14, cumulative = 1.05104e-12
+ExecutionTime = 43.1 s  ClockTime = 45 s
+
+Courant Number mean: 0.00259498 max: 0.429811
+deltaT = 0.0269105
+Time = 0.258383
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+PIMPLE: iteration 1
+DICPCG:  Solving for p_rgh, Initial residual = 0.0552922, Final residual = 0.000548813, No Iterations 89
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 6.56728e-08, global = -6.44113e-15, cumulative = 1.04459e-12
+DICPCG:  Solving for p_rgh, Initial residual = 0.0322853, Final residual = 9.88595e-08, No Iterations 312
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 1.98437e-08, global = 2.09227e-15, cumulative = 1.04669e-12
+ExecutionTime = 44.67 s  ClockTime = 48 s
+
+Courant Number mean: 0.00282987 max: 0.436775
+deltaT = 0.0299742
+Time = 0.288357
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+PIMPLE: iteration 1
+DICPCG:  Solving for p_rgh, Initial residual = 0.0644657, Final residual = 0.000642964, No Iterations 88
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 7.37185e-08, global = 1.44068e-14, cumulative = 1.06109e-12
+DICPCG:  Solving for p_rgh, Initial residual = 0.032642, Final residual = 8.82261e-08, No Iterations 313
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 1.43891e-08, global = 9.15772e-15, cumulative = 1.07025e-12
+ExecutionTime = 45.92 s  ClockTime = 49 s
+
+Courant Number mean: 0.00308013 max: 0.439064
+deltaT = 0.0333733
+Time = 0.321731
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+PIMPLE: iteration 1
+DICPCG:  Solving for p_rgh, Initial residual = 0.0527007, Final residual = 0.000524576, No Iterations 80
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 5.80919e-08, global = -1.60141e-14, cumulative = 1.05424e-12
+DICPCG:  Solving for p_rgh, Initial residual = 0.0309915, Final residual = 9.96631e-08, No Iterations 313
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 9.56307e-09, global = 2.25686e-14, cumulative = 1.07681e-12
+ExecutionTime = 47.11 s  ClockTime = 50 s
+
+Courant Number mean: 0.00334971 max: 0.435495
+deltaT = 0.0372241
+Time = 0.358955
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+PIMPLE: iteration 1
+DICPCG:  Solving for p_rgh, Initial residual = 0.0454337, Final residual = 0.000453049, No Iterations 81
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 5.35e-08, global = -2.89171e-14, cumulative = 1.04789e-12
+DICPCG:  Solving for p_rgh, Initial residual = 0.0286189, Final residual = 8.42683e-08, No Iterations 314
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 9.0017e-09, global = -3.29903e-14, cumulative = 1.0149e-12
+ExecutionTime = 48.59 s  ClockTime = 52 s
+
+Courant Number mean: 0.00364852 max: 0.43499
+deltaT = 0.0415562
+Time = 0.400511
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+PIMPLE: iteration 1
+DICPCG:  Solving for p_rgh, Initial residual = 0.0450892, Final residual = 0.000439078, No Iterations 77
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 5.4437e-08, global = -3.78788e-15, cumulative = 1.01111e-12
+DICPCG:  Solving for p_rgh, Initial residual = 0.0262896, Final residual = 9.29287e-08, No Iterations 314
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 8.07961e-09, global = 6.99218e-15, cumulative = 1.0181e-12
+ExecutionTime = 49.84 s  ClockTime = 53 s
+
+Courant Number mean: 0.00397712 max: 0.464575
+deltaT = 0.0446488
+Time = 0.44516
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+PIMPLE: iteration 1
+DICPCG:  Solving for p_rgh, Initial residual = 0.0392408, Final residual = 0.00038932, No Iterations 98
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 5.20151e-08, global = -4.70652e-15, cumulative = 1.0134e-12
+DICPCG:  Solving for p_rgh, Initial residual = 0.0234549, Final residual = 9.969e-08, No Iterations 313
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 8.34911e-09, global = -1.21339e-14, cumulative = 1.00126e-12
+ExecutionTime = 51.09 s  ClockTime = 54 s
+
+Courant Number mean: 0.00417736 max: 0.471883
+deltaT = 0.0473012
+Time = 0.492461
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+PIMPLE: iteration 1
+DICPCG:  Solving for p_rgh, Initial residual = 0.0313941, Final residual = 0.000305344, No Iterations 105
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 4.07822e-08, global = -1.88156e-14, cumulative = 9.82446e-13
+DICPCG:  Solving for p_rgh, Initial residual = 0.0214419, Final residual = 8.11642e-08, No Iterations 314
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 7.32573e-09, global = -2.06578e-14, cumulative = 9.61788e-13
+ExecutionTime = 52.35 s  ClockTime = 55 s
+
+Courant Number mean: 0.00433036 max: 0.469312
+deltaT = 0.0503044
+Time = 0.542766
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+PIMPLE: iteration 1
+DICPCG:  Solving for p_rgh, Initial residual = 0.0296863, Final residual = 0.000284959, No Iterations 105
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 3.81188e-08, global = 4.52026e-14, cumulative = 1.00699e-12
+DICPCG:  Solving for p_rgh, Initial residual = 0.0197393, Final residual = 8.02175e-08, No Iterations 314
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 6.67832e-09, global = 4.70684e-14, cumulative = 1.05406e-12
+ExecutionTime = 53.64 s  ClockTime = 57 s
+
+Courant Number mean: 0.00450862 max: 0.472942
+deltaT = 0.0531305
+Time = 0.595896
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+PIMPLE: iteration 1
+DICPCG:  Solving for p_rgh, Initial residual = 0.0255164, Final residual = 0.000254352, No Iterations 106
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 3.4307e-08, global = -1.1959e-15, cumulative = 1.05286e-12
+DICPCG:  Solving for p_rgh, Initial residual = 0.0178303, Final residual = 9.32539e-08, No Iterations 313
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 6.66884e-09, global = -5.13416e-15, cumulative = 1.04773e-12
+ExecutionTime = 54.92 s  ClockTime = 58 s
+
+Courant Number mean: 0.0046644 max: 0.470064
+deltaT = 0.0566512
+Time = 0.652547
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+PIMPLE: iteration 1
+DICPCG:  Solving for p_rgh, Initial residual = 0.0234092, Final residual = 0.000231572, No Iterations 108
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 3.20541e-08, global = 1.06622e-14, cumulative = 1.05839e-12
+DICPCG:  Solving for p_rgh, Initial residual = 0.0161597, Final residual = 9.08903e-08, No Iterations 313
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 6.73382e-09, global = 7.7699e-15, cumulative = 1.06616e-12
+ExecutionTime = 56.4 s  ClockTime = 60 s
+
+Courant Number mean: 0.00487352 max: 0.468165
+deltaT = 0.0606977
+Time = 0.713245
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+PIMPLE: iteration 1
+DICPCG:  Solving for p_rgh, Initial residual = 0.0237512, Final residual = 0.000236666, No Iterations 105
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 3.3948e-08, global = -3.42787e-14, cumulative = 1.03188e-12
+DICPCG:  Solving for p_rgh, Initial residual = 0.0148621, Final residual = 9.56341e-08, No Iterations 312
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 7.3516e-09, global = -4.94626e-14, cumulative = 9.8242e-13
+ExecutionTime = 57.81 s  ClockTime = 61 s
+
+Courant Number mean: 0.00511916 max: 0.466485
+deltaT = 0.0649423
+Time = 0.778187
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+PIMPLE: iteration 1
+DICPCG:  Solving for p_rgh, Initial residual = 0.0228633, Final residual = 0.000225215, No Iterations 104
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 3.44273e-08, global = 2.01207e-14, cumulative = 1.00254e-12
+DICPCG:  Solving for p_rgh, Initial residual = 0.0137174, Final residual = 8.83383e-08, No Iterations 312
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 7.83289e-09, global = 3.29751e-14, cumulative = 1.03552e-12
+ExecutionTime = 59 s  ClockTime = 62 s
+
+Courant Number mean: 0.0053715 max: 0.462418
+deltaT = 0.0703955
+Time = 0.848583
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+PIMPLE: iteration 1
+DICPCG:  Solving for p_rgh, Initial residual = 0.0201537, Final residual = 0.000195643, No Iterations 104
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 3.21323e-08, global = 7.15824e-15, cumulative = 1.04267e-12
+DICPCG:  Solving for p_rgh, Initial residual = 0.0121739, Final residual = 9.44532e-08, No Iterations 308
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 8.44106e-09, global = 3.56054e-15, cumulative = 1.04623e-12
+ExecutionTime = 60.18 s  ClockTime = 63 s
+
+Courant Number mean: 0.00571217 max: 0.462536
+deltaT = 0.0762618
+Time = 0.924845
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+PIMPLE: iteration 1
+DICPCG:  Solving for p_rgh, Initial residual = 0.0188901, Final residual = 0.000187113, No Iterations 103
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 3.3018e-08, global = 7.76971e-15, cumulative = 1.054e-12
+DICPCG:  Solving for p_rgh, Initial residual = 0.0110983, Final residual = 9.21256e-08, No Iterations 305
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 8.84184e-09, global = -4.01028e-14, cumulative = 1.0139e-12
+ExecutionTime = 61.34 s  ClockTime = 65 s
+
+Courant Number mean: 0.00607365 max: 0.460616
+deltaT = 0.0825014
+Time = 1.00735
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+PIMPLE: iteration 1
+DICPCG:  Solving for p_rgh, Initial residual = 0.0176562, Final residual = 0.000170286, No Iterations 102
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 3.18113e-08, global = 2.04946e-14, cumulative = 1.0344e-12
+DICPCG:  Solving for p_rgh, Initial residual = 0.0101489, Final residual = 8.88907e-08, No Iterations 305
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 9.73269e-09, global = 2.38206e-14, cumulative = 1.05822e-12
+ExecutionTime = 62.48 s  ClockTime = 66 s
+
+Courant Number mean: 0.00645097 max: 0.461373
+deltaT = 0.0890362
+Time = 1.09638
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+PIMPLE: iteration 1
+DICPCG:  Solving for p_rgh, Initial residual = 0.0170151, Final residual = 0.000160466, No Iterations 102
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 3.22108e-08, global = 5.01176e-15, cumulative = 1.06323e-12
+DICPCG:  Solving for p_rgh, Initial residual = 0.00928596, Final residual = 9.11587e-08, No Iterations 305
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 1.06475e-08, global = -1.19352e-14, cumulative = 1.05129e-12
+ExecutionTime = 63.69 s  ClockTime = 67 s
+
+Courant Number mean: 0.00683714 max: 0.461836
+deltaT = 0.0967785
+Time = 1.19316
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+PIMPLE: iteration 1
+DICPCG:  Solving for p_rgh, Initial residual = 0.0158505, Final residual = 0.000148351, No Iterations 102
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 3.2019e-08, global = 5.22148e-14, cumulative = 1.10351e-12
+DICPCG:  Solving for p_rgh, Initial residual = 0.00847228, Final residual = 9.69219e-08, No Iterations 305
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 1.1779e-08, global = 1.73549e-14, cumulative = 1.12086e-12
+ExecutionTime = 64.86 s  ClockTime = 68 s
+
+Courant Number mean: 0.00730045 max: 0.465464
+deltaT = 0.10361
+Time = 1.29677
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+PIMPLE: iteration 1
+DICPCG:  Solving for p_rgh, Initial residual = 0.0144986, Final residual = 0.000140496, No Iterations 102
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 3.18789e-08, global = -1.93811e-14, cumulative = 1.10148e-12
+DICPCG:  Solving for p_rgh, Initial residual = 0.00779461, Final residual = 9.73295e-08, No Iterations 305
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 1.26928e-08, global = 1.57204e-14, cumulative = 1.1172e-12
+ExecutionTime = 66.03 s  ClockTime = 69 s
+
+Courant Number mean: 0.00767982 max: 0.462088
+deltaT = 0.11158
+Time = 1.40835
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+PIMPLE: iteration 1
+DICPCG:  Solving for p_rgh, Initial residual = 0.0131218, Final residual = 0.00012552, No Iterations 103
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 3.05754e-08, global = -1.75513e-14, cumulative = 1.09965e-12
+DICPCG:  Solving for p_rgh, Initial residual = 0.0071715, Final residual = 8.64681e-08, No Iterations 305
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 1.37042e-08, global = -3.27917e-15, cumulative = 1.09637e-12
+ExecutionTime = 67.28 s  ClockTime = 70 s
+
+Courant Number mean: 0.00812857 max: 0.461541
+deltaT = 0.121009
+Time = 1.52936
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+PIMPLE: iteration 1
+DICPCG:  Solving for p_rgh, Initial residual = 0.0123818, Final residual = 0.000116439, No Iterations 105
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 3.10162e-08, global = -2.5825e-14, cumulative = 1.07055e-12
+DICPCG:  Solving for p_rgh, Initial residual = 0.0065612, Final residual = 9.80275e-08, No Iterations 304
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 1.5167e-08, global = 1.0903e-14, cumulative = 1.08145e-12
+ExecutionTime = 68.5 s  ClockTime = 72 s
+
+Courant Number mean: 0.00866607 max: 0.464455
+deltaT = 0.130318
+Time = 1.65968
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+PIMPLE: iteration 1
+DICPCG:  Solving for p_rgh, Initial residual = 0.0116549, Final residual = 0.000113015, No Iterations 106
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 3.21748e-08, global = -3.94604e-14, cumulative = 1.04199e-12
+DICPCG:  Solving for p_rgh, Initial residual = 0.00609475, Final residual = 8.79928e-08, No Iterations 304
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 1.64459e-08, global = -2.55261e-14, cumulative = 1.01646e-12
+ExecutionTime = 69.67 s  ClockTime = 73 s
+
+Courant Number mean: 0.00917666 max: 0.464524
+deltaT = 0.141361
+Time = 1.80104
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+PIMPLE: iteration 1
+DICPCG:  Solving for p_rgh, Initial residual = 0.0109792, Final residual = 0.000106847, No Iterations 107
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 3.38323e-08, global = -1.62074e-14, cumulative = 1.00026e-12
+DICPCG:  Solving for p_rgh, Initial residual = 0.00566516, Final residual = 9.68884e-08, No Iterations 303
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 1.85672e-08, global = -4.24518e-15, cumulative = 9.9601e-13
+ExecutionTime = 70.89 s  ClockTime = 74 s
+
+Courant Number mean: 0.00979038 max: 0.468349
+deltaT = 0.151833
+Time = 1.95287
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+PIMPLE: iteration 1
+DICPCG:  Solving for p_rgh, Initial residual = 0.0102742, Final residual = 0.000101863, No Iterations 109
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 3.50058e-08, global = 2.54922e-14, cumulative = 1.0215e-12
+DICPCG:  Solving for p_rgh, Initial residual = 0.00526437, Final residual = 9.36189e-08, No Iterations 303
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 1.94079e-08, global = 4.10166e-14, cumulative = 1.06252e-12
+ExecutionTime = 72.08 s  ClockTime = 75 s
+
+Courant Number mean: 0.0103446 max: 0.468553
+deltaT = 0.160943
+Time = 2.11381
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+PIMPLE: iteration 1
+DICPCG:  Solving for p_rgh, Initial residual = 0.00951353, Final residual = 8.74921e-05, No Iterations 108
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 3.21983e-08, global = -6.27644e-14, cumulative = 9.99755e-13
+DICPCG:  Solving for p_rgh, Initial residual = 0.00487554, Final residual = 9.72603e-08, No Iterations 303
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 2.12112e-08, global = -1.53832e-14, cumulative = 9.84372e-13
+ExecutionTime = 73.24 s  ClockTime = 76 s
+
+Courant Number mean: 0.0107892 max: 0.46544
+deltaT = 0.171439
+Time = 2.28525
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+PIMPLE: iteration 1
+DICPCG:  Solving for p_rgh, Initial residual = 0.00905281, Final residual = 9.02895e-05, No Iterations 201
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 3.57002e-08, global = -6.95142e-15, cumulative = 9.7742e-13
+DICPCG:  Solving for p_rgh, Initial residual = 0.00459834, Final residual = 8.92891e-08, No Iterations 304
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 2.27667e-08, global = -2.5764e-14, cumulative = 9.51656e-13
+ExecutionTime = 74.61 s  ClockTime = 78 s
+
+Courant Number mean: 0.0113103 max: 0.465059
+deltaT = 0.183684
+Time = 2.46894
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+PIMPLE: iteration 1
+DICPCG:  Solving for p_rgh, Initial residual = 0.00871096, Final residual = 8.33656e-05, No Iterations 110
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 3.58147e-08, global = 8.14491e-15, cumulative = 9.59801e-13
+DICPCG:  Solving for p_rgh, Initial residual = 0.00430789, Final residual = 9.04708e-08, No Iterations 303
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 2.36534e-08, global = -1.07675e-14, cumulative = 9.49034e-13
+ExecutionTime = 75.79 s  ClockTime = 79 s
+
+Courant Number mean: 0.0119274 max: 0.467833
+deltaT = 0.198186
+Time = 2.66712
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+PIMPLE: iteration 1
+DICPCG:  Solving for p_rgh, Initial residual = 0.00844943, Final residual = 8.33755e-05, No Iterations 109
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 3.85739e-08, global = 1.7743e-14, cumulative = 9.66777e-13
+DICPCG:  Solving for p_rgh, Initial residual = 0.00410685, Final residual = 9.55761e-08, No Iterations 297
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 2.61015e-08, global = 2.76346e-14, cumulative = 9.94411e-13
+ExecutionTime = 77.03 s  ClockTime = 80 s
+
+Courant Number mean: 0.012668 max: 0.474444
+deltaT = 0.209511
+Time = 2.87663
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+PIMPLE: iteration 1
+DICPCG:  Solving for p_rgh, Initial residual = 0.00803286, Final residual = 7.95972e-05, No Iterations 121
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 3.91472e-08, global = 7.43741e-16, cumulative = 9.95155e-13
+DICPCG:  Solving for p_rgh, Initial residual = 0.00391893, Final residual = 9.89775e-08, No Iterations 300
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 2.7593e-08, global = 9.54554e-16, cumulative = 9.96109e-13
+ExecutionTime = 78.25 s  ClockTime = 82 s
+
+Courant Number mean: 0.0131843 max: 0.472021
+deltaT = 0.222605
+Time = 3.09924
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+PIMPLE: iteration 1
+DICPCG:  Solving for p_rgh, Initial residual = 0.00784147, Final residual = 7.51804e-05, No Iterations 108
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 3.82698e-08, global = -6.00033e-15, cumulative = 9.90109e-13
+DICPCG:  Solving for p_rgh, Initial residual = 0.00376814, Final residual = 9.32357e-08, No Iterations 303
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 2.89645e-08, global = -3.22352e-14, cumulative = 9.57874e-13
+ExecutionTime = 79.46 s  ClockTime = 83 s
+
+Courant Number mean: 0.0137932 max: 0.472569
+deltaT = 0.237957
+Time = 3.3372
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+PIMPLE: iteration 1
+DICPCG:  Solving for p_rgh, Initial residual = 0.00759306, Final residual = 7.36209e-05, No Iterations 118
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 4.29317e-08, global = 3.77313e-14, cumulative = 9.95605e-13
+DICPCG:  Solving for p_rgh, Initial residual = 0.00362779, Final residual = 9.30041e-08, No Iterations 300
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 3.14438e-08, global = -1.56018e-14, cumulative = 9.80003e-13
+ExecutionTime = 80.66 s  ClockTime = 84 s
+
+Courant Number mean: 0.0145197 max: 0.476503
+deltaT = 0.246771
+Time = 3.58397
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+PIMPLE: iteration 1
+DICPCG:  Solving for p_rgh, Initial residual = 0.00738279, Final residual = 7.08582e-05, No Iterations 108
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 4.1999e-08, global = 3.64788e-14, cumulative = 1.01648e-12
+DICPCG:  Solving for p_rgh, Initial residual = 0.00350866, Final residual = 9.70213e-08, No Iterations 302
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 3.30469e-08, global = 5.84955e-14, cumulative = 1.07498e-12
+ExecutionTime = 81.79 s  ClockTime = 85 s
+
+Courant Number mean: 0.0148297 max: 0.466697
+deltaT = 0.267335
+Time = 3.8513
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+PIMPLE: iteration 1
+DICPCG:  Solving for p_rgh, Initial residual = 0.00707893, Final residual = 6.98976e-05, No Iterations 110
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 4.50981e-08, global = -1.44132e-14, cumulative = 1.06056e-12
+DICPCG:  Solving for p_rgh, Initial residual = 0.00332998, Final residual = 9.20219e-08, No Iterations 302
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 3.61205e-08, global = -4.85834e-14, cumulative = 1.01198e-12
+ExecutionTime = 82.96 s  ClockTime = 86 s
+
+Courant Number mean: 0.0158242 max: 0.478011
+deltaT = 0.279486
+Time = 4.13079
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+PIMPLE: iteration 1
+DICPCG:  Solving for p_rgh, Initial residual = 0.00688397, Final residual = 6.4881e-05, No Iterations 117
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 4.4904e-08, global = 3.13858e-14, cumulative = 1.04337e-12
+DICPCG:  Solving for p_rgh, Initial residual = 0.00318941, Final residual = 8.85893e-08, No Iterations 301
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 3.6859e-08, global = 4.53621e-14, cumulative = 1.08873e-12
+ExecutionTime = 84.16 s  ClockTime = 88 s
+
+Courant Number mean: 0.0162963 max: 0.473069
+deltaT = 0.293461
+Time = 4.42425
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+PIMPLE: iteration 1
+DICPCG:  Solving for p_rgh, Initial residual = 0.00665319, Final residual = 6.23588e-05, No Iterations 118
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 4.60474e-08, global = -2.13407e-14, cumulative = 1.06739e-12
+DICPCG:  Solving for p_rgh, Initial residual = 0.00304897, Final residual = 8.55019e-08, No Iterations 299
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 3.91801e-08, global = -1.14936e-14, cumulative = 1.05589e-12
+ExecutionTime = 85.32 s  ClockTime = 89 s
+
+Courant Number mean: 0.0168571 max: 0.470789
+deltaT = 0.309764
+Time = 4.73401
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+PIMPLE: iteration 1
+DICPCG:  Solving for p_rgh, Initial residual = 0.00647642, Final residual = 6.46484e-05, No Iterations 118
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 4.80348e-08, global = 4.1083e-15, cumulative = 1.06e-12
+DICPCG:  Solving for p_rgh, Initial residual = 0.00292978, Final residual = 8.94425e-08, No Iterations 299
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 4.23081e-08, global = 2.57003e-14, cumulative = 1.0857e-12
+ExecutionTime = 86.49 s  ClockTime = 90 s
+
+Courant Number mean: 0.0175312 max: 0.471576
+deltaT = 0.329124
+Time = 5.06314
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+PIMPLE: iteration 1
+DICPCG:  Solving for p_rgh, Initial residual = 0.0063586, Final residual = 6.03124e-05, No Iterations 108
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 4.96501e-08, global = -1.89084e-14, cumulative = 1.06679e-12
+DICPCG:  Solving for p_rgh, Initial residual = 0.00284408, Final residual = 9.56289e-08, No Iterations 301
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 4.62407e-08, global = -3.95473e-14, cumulative = 1.02725e-12
+ExecutionTime = 87.65 s  ClockTime = 91 s
+
+Courant Number mean: 0.018354 max: 0.476044
+deltaT = 0.352633
+Time = 5.41577
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+PIMPLE: iteration 1
+DICPCG:  Solving for p_rgh, Initial residual = 0.00628634, Final residual = 5.91391e-05, No Iterations 202
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 5.65308e-08, global = 3.49689e-14, cumulative = 1.06222e-12
+DICPCG:  Solving for p_rgh, Initial residual = 0.00276195, Final residual = 9.46075e-08, No Iterations 301
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 4.91367e-08, global = -1.30041e-14, cumulative = 1.04921e-12
+ExecutionTime = 88.98 s  ClockTime = 92 s
+
+Courant Number mean: 0.0193784 max: 0.485919
+deltaT = 0.352633
+Time = 5.7684
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+PIMPLE: iteration 1
+DICPCG:  Solving for p_rgh, Initial residual = 0.00615115, Final residual = 5.66722e-05, No Iterations 195
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 5.47766e-08, global = 3.05367e-14, cumulative = 1.07975e-12
+DICPCG:  Solving for p_rgh, Initial residual = 0.00271705, Final residual = 9.86624e-08, No Iterations 295
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 4.78041e-08, global = -1.72704e-15, cumulative = 1.07802e-12
+ExecutionTime = 90.44 s  ClockTime = 94 s
+
+Courant Number mean: 0.0190982 max: 0.463854
+deltaT = 0.384691
+Time = 6.15309
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+PIMPLE: iteration 1
+DICPCG:  Solving for p_rgh, Initial residual = 0.00610464, Final residual = 6.08568e-05, No Iterations 120
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 5.86901e-08, global = 1.45121e-14, cumulative = 1.09253e-12
+DICPCG:  Solving for p_rgh, Initial residual = 0.00264311, Final residual = 9.81641e-08, No Iterations 297
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 5.13937e-08, global = 3.71715e-14, cumulative = 1.12971e-12
+ExecutionTime = 91.87 s  ClockTime = 95 s
+
+Courant Number mean: 0.0205344 max: 0.483512
+deltaT = 0.384691
+Time = 6.53778
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+PIMPLE: iteration 1
+DICPCG:  Solving for p_rgh, Initial residual = 0.00592994, Final residual = 5.79611e-05, No Iterations 116
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 5.53814e-08, global = -4.11755e-14, cumulative = 1.08853e-12
+DICPCG:  Solving for p_rgh, Initial residual = 0.00260752, Final residual = 9.26569e-08, No Iterations 301
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 5.17018e-08, global = -8.96461e-15, cumulative = 1.07957e-12
+ExecutionTime = 93.36 s  ClockTime = 97 s
+
+Courant Number mean: 0.0202404 max: 0.462519
+deltaT = 0.432777
+Time = 6.97056
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+PIMPLE: iteration 1
+DICPCG:  Solving for p_rgh, Initial residual = 0.00582947, Final residual = 5.82472e-05, No Iterations 111
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 6.29974e-08, global = -2.05662e-14, cumulative = 1.059e-12
+DICPCG:  Solving for p_rgh, Initial residual = 0.00248788, Final residual = 8.97693e-08, No Iterations 301
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 5.96032e-08, global = -2.43046e-14, cumulative = 1.03469e-12
+ExecutionTime = 94.75 s  ClockTime = 98 s
+
+Courant Number mean: 0.0224457 max: 0.49821
+deltaT = 0.432777
+Time = 7.40334
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+PIMPLE: iteration 1
+DICPCG:  Solving for p_rgh, Initial residual = 0.00568406, Final residual = 5.59726e-05, No Iterations 196
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 6.85737e-08, global = 7.50528e-15, cumulative = 1.0422e-12
+DICPCG:  Solving for p_rgh, Initial residual = 0.00247387, Final residual = 9.76917e-08, No Iterations 300
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 5.9697e-08, global = 3.05451e-14, cumulative = 1.07275e-12
+ExecutionTime = 96.27 s  ClockTime = 100 s
+
+Courant Number mean: 0.0221267 max: 0.477533
+deltaT = 0.432777
+Time = 7.83612
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+PIMPLE: iteration 1
+DICPCG:  Solving for p_rgh, Initial residual = 0.00558579, Final residual = 5.55512e-05, No Iterations 193
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 6.74263e-08, global = -2.90548e-14, cumulative = 1.04369e-12
+DICPCG:  Solving for p_rgh, Initial residual = 0.00242843, Final residual = 8.6056e-08, No Iterations 301
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 5.90275e-08, global = -1.6881e-16, cumulative = 1.04352e-12
+ExecutionTime = 97.66 s  ClockTime = 101 s
+
+Courant Number mean: 0.0218132 max: 0.461385
+deltaT = 0.432777
+Time = 8.26889
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+PIMPLE: iteration 1
+DICPCG:  Solving for p_rgh, Initial residual = 0.00554911, Final residual = 5.25177e-05, No Iterations 194
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 6.5896e-08, global = -3.39933e-14, cumulative = 1.00953e-12
+DICPCG:  Solving for p_rgh, Initial residual = 0.00240848, Final residual = 8.31844e-08, No Iterations 301
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 5.87107e-08, global = -2.6829e-15, cumulative = 1.00685e-12
+ExecutionTime = 99.17 s  ClockTime = 103 s
+
+Courant Number mean: 0.0215049 max: 0.456683
+deltaT = 0.432777
+Time = 8.70167
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+PIMPLE: iteration 1
+DICPCG:  Solving for p_rgh, Initial residual = 0.00552646, Final residual = 5.36683e-05, No Iterations 194
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 6.61205e-08, global = -3.41621e-14, cumulative = 9.72683e-13
+DICPCG:  Solving for p_rgh, Initial residual = 0.00239939, Final residual = 9.82888e-08, No Iterations 300
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 5.82781e-08, global = -1.04495e-14, cumulative = 9.62234e-13
+ExecutionTime = 100.8 s  ClockTime = 105 s
+
+Courant Number mean: 0.0212012 max: 0.451948
+deltaT = 0.432777
+Time = 9.13445
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+PIMPLE: iteration 1
+DICPCG:  Solving for p_rgh, Initial residual = 0.0054762, Final residual = 5.32856e-05, No Iterations 193
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 6.51474e-08, global = -9.71213e-15, cumulative = 9.52522e-13
+DICPCG:  Solving for p_rgh, Initial residual = 0.00237072, Final residual = 9.52334e-08, No Iterations 288
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 5.7941e-08, global = 3.56078e-14, cumulative = 9.88129e-13
+ExecutionTime = 102.31 s  ClockTime = 106 s
+
+Courant Number mean: 0.0209023 max: 0.447159
+deltaT = 0.432777
+Time = 9.56722
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+PIMPLE: iteration 1
+DICPCG:  Solving for p_rgh, Initial residual = 0.00539823, Final residual = 4.97311e-05, No Iterations 194
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 6.34289e-08, global = -1.86764e-14, cumulative = 9.69453e-13
+DICPCG:  Solving for p_rgh, Initial residual = 0.00234359, Final residual = 9.44162e-08, No Iterations 285
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 5.82153e-08, global = -4.60107e-14, cumulative = 9.23442e-13
+ExecutionTime = 103.73 s  ClockTime = 107 s
+
+Courant Number mean: 0.020608 max: 0.442568
+deltaT = 0.432777
+Time = 10
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+PIMPLE: iteration 1
+DICPCG:  Solving for p_rgh, Initial residual = 0.00532653, Final residual = 4.98238e-05, No Iterations 194
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 6.28242e-08, global = 6.70848e-15, cumulative = 9.30151e-13
+DICPCG:  Solving for p_rgh, Initial residual = 0.00230308, Final residual = 9.68108e-08, No Iterations 298
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 5.75366e-08, global = 7.58725e-15, cumulative = 9.37738e-13
+ExecutionTime = 105.81 s  ClockTime = 110 s
+
+Courant Number mean: 0.0203185 max: 0.438185
+deltaT = 0.47619
+Time = 10.4762
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+PIMPLE: iteration 1
+DICPCG:  Solving for p_rgh, Initial residual = 0.0052706, Final residual = 5.01986e-05, No Iterations 194
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 6.8937e-08, global = 2.22133e-14, cumulative = 9.59951e-13
+DICPCG:  Solving for p_rgh, Initial residual = 0.00222438, Final residual = 9.72326e-08, No Iterations 300
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 6.35304e-08, global = -1.28822e-14, cumulative = 9.47069e-13
+ExecutionTime = 107.31 s  ClockTime = 112 s
+
+Courant Number mean: 0.0220427 max: 0.477275
+deltaT = 0.501253
+Time = 10.9774
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+PIMPLE: iteration 1
+DICPCG:  Solving for p_rgh, Initial residual = 0.00511799, Final residual = 4.88885e-05, No Iterations 194
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 7.15495e-08, global = 1.48155e-14, cumulative = 9.61885e-13
+DICPCG:  Solving for p_rgh, Initial residual = 0.00219589, Final residual = 9.3764e-08, No Iterations 300
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 6.71431e-08, global = 6.58893e-16, cumulative = 9.62544e-13
+ExecutionTime = 108.88 s  ClockTime = 114 s
+
+Courant Number mean: 0.0228769 max: 0.497323
+deltaT = 0.501253
+Time = 11.4787
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+PIMPLE: iteration 1
+DICPCG:  Solving for p_rgh, Initial residual = 0.00503833, Final residual = 4.66651e-05, No Iterations 193
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 7.0214e-08, global = -7.64475e-15, cumulative = 9.54899e-13
+DICPCG:  Solving for p_rgh, Initial residual = 0.00217974, Final residual = 8.71245e-08, No Iterations 301
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 6.86025e-08, global = 3.99169e-14, cumulative = 9.94816e-13
+ExecutionTime = 110.52 s  ClockTime = 115 s
+
+Courant Number mean: 0.0225561 max: 0.492275
+deltaT = 0.501253
+Time = 11.9799
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+PIMPLE: iteration 1
+DICPCG:  Solving for p_rgh, Initial residual = 0.00496299, Final residual = 4.61632e-05, No Iterations 193
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 6.99153e-08, global = -2.62228e-14, cumulative = 9.68593e-13
+DICPCG:  Solving for p_rgh, Initial residual = 0.00216468, Final residual = 8.93664e-08, No Iterations 301
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 6.20192e-08, global = 1.66434e-14, cumulative = 9.85236e-13
+ExecutionTime = 112.36 s  ClockTime = 117 s
+
+Courant Number mean: 0.0222401 max: 0.487217
+deltaT = 0.501253
+Time = 12.4812
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+PIMPLE: iteration 1
+DICPCG:  Solving for p_rgh, Initial residual = 0.00487559, Final residual = 4.75525e-05, No Iterations 193
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 6.9772e-08, global = -4.86227e-14, cumulative = 9.36613e-13
+DICPCG:  Solving for p_rgh, Initial residual = 0.00214061, Final residual = 9.23485e-08, No Iterations 301
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 6.75326e-08, global = -4.29425e-14, cumulative = 8.93671e-13
+ExecutionTime = 114.45 s  ClockTime = 119 s
+
+Courant Number mean: 0.0219292 max: 0.482156
+deltaT = 0.537057
+Time = 13.0183
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+PIMPLE: iteration 1
+DICPCG:  Solving for p_rgh, Initial residual = 0.00485346, Final residual = 4.62935e-05, No Iterations 122
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 6.82273e-08, global = 7.4585e-15, cumulative = 9.01129e-13
+DICPCG:  Solving for p_rgh, Initial residual = 0.00209437, Final residual = 9.51943e-08, No Iterations 283
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 7.25338e-08, global = 1.86545e-15, cumulative = 9.02995e-13
+ExecutionTime = 115.7 s  ClockTime = 121 s
+
+Courant Number mean: 0.0231674 max: 0.511152
+deltaT = 0.537057
+Time = 13.5553
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+PIMPLE: iteration 1
+DICPCG:  Solving for p_rgh, Initial residual = 0.00477458, Final residual = 4.72466e-05, No Iterations 121
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 6.83021e-08, global = 1.40509e-14, cumulative = 9.17046e-13
+DICPCG:  Solving for p_rgh, Initial residual = 0.00208358, Final residual = 9.28658e-08, No Iterations 286
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 7.15611e-08, global = 1.09685e-14, cumulative = 9.28014e-13
+ExecutionTime = 117.49 s  ClockTime = 123 s
+
+Courant Number mean: 0.0228442 max: 0.505722
+deltaT = 0.537057
+Time = 14.0924
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+PIMPLE: iteration 1
+DICPCG:  Solving for p_rgh, Initial residual = 0.00468054, Final residual = 4.67942e-05, No Iterations 79
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 6.36624e-08, global = -1.9742e-14, cumulative = 9.08272e-13
+DICPCG:  Solving for p_rgh, Initial residual = 0.0020485, Final residual = 9.50135e-08, No Iterations 301
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 7.4339e-08, global = 4.38539e-15, cumulative = 9.12658e-13
+ExecutionTime = 119.23 s  ClockTime = 125 s
+
+Courant Number mean: 0.0225259 max: 0.500287
+deltaT = 0.537057
+Time = 14.6294
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+PIMPLE: iteration 1
+DICPCG:  Solving for p_rgh, Initial residual = 0.0046889, Final residual = 4.63279e-05, No Iterations 76
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 6.23462e-08, global = -4.03237e-14, cumulative = 8.72334e-13
+DICPCG:  Solving for p_rgh, Initial residual = 0.00203289, Final residual = 9.3073e-08, No Iterations 301
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 7.35993e-08, global = -2.26796e-14, cumulative = 8.49654e-13
+ExecutionTime = 120.89 s  ClockTime = 127 s
+
+Courant Number mean: 0.0222123 max: 0.494877
+deltaT = 0.537057
+Time = 15.1665
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+PIMPLE: iteration 1
+DICPCG:  Solving for p_rgh, Initial residual = 0.00466116, Final residual = 4.57467e-05, No Iterations 74
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 6.07218e-08, global = 2.23018e-14, cumulative = 8.71956e-13
+DICPCG:  Solving for p_rgh, Initial residual = 0.00202676, Final residual = 9.32531e-08, No Iterations 301
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 7.30751e-08, global = 1.39358e-14, cumulative = 8.85892e-13
+ExecutionTime = 122.47 s  ClockTime = 128 s
+
+Courant Number mean: 0.0219033 max: 0.489461
+deltaT = 0.537057
+Time = 15.7035
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+PIMPLE: iteration 1
+DICPCG:  Solving for p_rgh, Initial residual = 0.00460019, Final residual = 4.56731e-05, No Iterations 74
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 6.11362e-08, global = -2.05435e-15, cumulative = 8.83838e-13
+DICPCG:  Solving for p_rgh, Initial residual = 0.00200876, Final residual = 9.52051e-08, No Iterations 301
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 7.40312e-08, global = 5.79968e-15, cumulative = 8.89637e-13
+ExecutionTime = 123.63 s  ClockTime = 129 s
+
+Courant Number mean: 0.0215989 max: 0.48405
+deltaT = 0.537057
+Time = 16.2406
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+PIMPLE: iteration 1
+DICPCG:  Solving for p_rgh, Initial residual = 0.00453793, Final residual = 4.4806e-05, No Iterations 59
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 5.76972e-08, global = 1.45661e-15, cumulative = 8.91094e-13
+DICPCG:  Solving for p_rgh, Initial residual = 0.0019861, Final residual = 9.06904e-08, No Iterations 301
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 7.39644e-08, global = -2.39385e-14, cumulative = 8.67155e-13
+ExecutionTime = 124.88 s  ClockTime = 131 s
+
+Courant Number mean: 0.0212993 max: 0.478769
+deltaT = 0.537057
+Time = 16.7777
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+PIMPLE: iteration 1
+DICPCG:  Solving for p_rgh, Initial residual = 0.00451224, Final residual = 4.43153e-05, No Iterations 51
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 5.54346e-08, global = 1.50846e-14, cumulative = 8.8224e-13
+DICPCG:  Solving for p_rgh, Initial residual = 0.00195984, Final residual = 9.69036e-08, No Iterations 301
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 7.27938e-08, global = 4.41138e-17, cumulative = 8.82284e-13
+ExecutionTime = 125.99 s  ClockTime = 132 s
+
+Courant Number mean: 0.021004 max: 0.473808
+deltaT = 0.537057
+Time = 17.3147
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+PIMPLE: iteration 1
+DICPCG:  Solving for p_rgh, Initial residual = 0.00449219, Final residual = 4.4124e-05, No Iterations 49
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 5.39764e-08, global = 4.0281e-14, cumulative = 9.22565e-13
+DICPCG:  Solving for p_rgh, Initial residual = 0.00193935, Final residual = 9.76333e-08, No Iterations 301
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 7.35178e-08, global = -2.62012e-14, cumulative = 8.96364e-13
+ExecutionTime = 127.17 s  ClockTime = 133 s
+
+Courant Number mean: 0.0207127 max: 0.468887
+deltaT = 0.537057
+Time = 17.8518
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+PIMPLE: iteration 1
+DICPCG:  Solving for p_rgh, Initial residual = 0.00441098, Final residual = 4.15806e-05, No Iterations 49
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 5.21698e-08, global = 1.89052e-14, cumulative = 9.15269e-13
+DICPCG:  Solving for p_rgh, Initial residual = 0.00191866, Final residual = 9.92137e-08, No Iterations 301
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 7.36429e-08, global = 3.4737e-14, cumulative = 9.50006e-13
+ExecutionTime = 128.76 s  ClockTime = 135 s
+
+Courant Number mean: 0.0204251 max: 0.46404
+deltaT = 0.537057
+Time = 18.3888
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+PIMPLE: iteration 1
+DICPCG:  Solving for p_rgh, Initial residual = 0.00432302, Final residual = 4.21633e-05, No Iterations 47
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 5.1092e-08, global = 2.76957e-14, cumulative = 9.77702e-13
+DICPCG:  Solving for p_rgh, Initial residual = 0.00188591, Final residual = 9.86688e-08, No Iterations 301
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 7.41257e-08, global = -1.64747e-17, cumulative = 9.77685e-13
+ExecutionTime = 130.19 s  ClockTime = 137 s
+
+Courant Number mean: 0.0201414 max: 0.459248
+deltaT = 0.537057
+Time = 18.9259
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+PIMPLE: iteration 1
+DICPCG:  Solving for p_rgh, Initial residual = 0.00424239, Final residual = 4.00362e-05, No Iterations 47
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 5.09104e-08, global = -3.56604e-15, cumulative = 9.74119e-13
+DICPCG:  Solving for p_rgh, Initial residual = 0.00184465, Final residual = 9.81053e-08, No Iterations 301
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 7.45067e-08, global = -5.12325e-15, cumulative = 9.68996e-13
+ExecutionTime = 131.37 s  ClockTime = 138 s
+
+Courant Number mean: 0.0198614 max: 0.454504
+deltaT = 0.537057
+Time = 19.4629
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+PIMPLE: iteration 1
+DICPCG:  Solving for p_rgh, Initial residual = 0.00421677, Final residual = 4.04342e-05, No Iterations 44
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 4.9537e-08, global = 1.43407e-14, cumulative = 9.83337e-13
+DICPCG:  Solving for p_rgh, Initial residual = 0.00182795, Final residual = 9.90819e-08, No Iterations 302
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 7.36824e-08, global = 3.87522e-15, cumulative = 9.87212e-13
+ExecutionTime = 132.58 s  ClockTime = 139 s
+
+Courant Number mean: 0.0195851 max: 0.449797
+deltaT = 0.537057
+Time = 20
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+PIMPLE: iteration 1
+DICPCG:  Solving for p_rgh, Initial residual = 0.0041561, Final residual = 3.99292e-05, No Iterations 44
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 4.94604e-08, global = 1.52268e-14, cumulative = 1.00244e-12
+DICPCG:  Solving for p_rgh, Initial residual = 0.00180902, Final residual = 9.77939e-08, No Iterations 302
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 7.25401e-08, global = 1.4366e-14, cumulative = 1.0168e-12
+ExecutionTime = 134.3 s  ClockTime = 141 s
+
+Courant Number mean: 0.0193126 max: 0.445136
+deltaT = 0.588235
+Time = 20.5882
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+PIMPLE: iteration 1
+DICPCG:  Solving for p_rgh, Initial residual = 0.00418342, Final residual = 4.14485e-05, No Iterations 48
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 5.45095e-08, global = -1.68069e-14, cumulative = 9.99998e-13
+DICPCG:  Solving for p_rgh, Initial residual = 0.00175923, Final residual = 9.61375e-08, No Iterations 301
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 7.93803e-08, global = -2.14637e-14, cumulative = 9.78534e-13
+ExecutionTime = 135.48 s  ClockTime = 142 s
+
+Courant Number mean: 0.0208586 max: 0.482474
+deltaT = 0.627451
+Time = 21.2157
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+PIMPLE: iteration 1
+DICPCG:  Solving for p_rgh, Initial residual = 0.00407716, Final residual = 4.0711e-05, No Iterations 48
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 5.89547e-08, global = 7.21415e-15, cumulative = 9.85748e-13
+DICPCG:  Solving for p_rgh, Initial residual = 0.00173913, Final residual = 9.23622e-08, No Iterations 301
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 8.77183e-08, global = 1.34364e-14, cumulative = 9.99185e-13
+ExecutionTime = 136.61 s  ClockTime = 144 s
+
+Courant Number mean: 0.0219392 max: 0.509276
+deltaT = 0.627451
+Time = 21.8431
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+PIMPLE: iteration 1
+DICPCG:  Solving for p_rgh, Initial residual = 0.00402177, Final residual = 3.99466e-05, No Iterations 37
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 5.34995e-08, global = -9.00889e-17, cumulative = 9.99095e-13
+DICPCG:  Solving for p_rgh, Initial residual = 0.001732, Final residual = 9.74325e-08, No Iterations 302
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 8.47528e-08, global = -1.01279e-14, cumulative = 9.88967e-13
+ExecutionTime = 137.81 s  ClockTime = 145 s
+
+Courant Number mean: 0.0216337 max: 0.503992
+deltaT = 0.627451
+Time = 22.4706
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+PIMPLE: iteration 1
+DICPCG:  Solving for p_rgh, Initial residual = 0.0040192, Final residual = 3.82718e-05, No Iterations 37
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 5.24104e-08, global = 9.03458e-15, cumulative = 9.98001e-13
+DICPCG:  Solving for p_rgh, Initial residual = 0.00172673, Final residual = 9.37532e-08, No Iterations 302
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 8.67455e-08, global = 5.92022e-15, cumulative = 1.00392e-12
+ExecutionTime = 138.86 s  ClockTime = 146 s
+
+Courant Number mean: 0.0213323 max: 0.498768
+deltaT = 0.627451
+Time = 23.098
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+PIMPLE: iteration 1
+DICPCG:  Solving for p_rgh, Initial residual = 0.00401721, Final residual = 3.76887e-05, No Iterations 36
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 5.06261e-08, global = 1.74716e-15, cumulative = 1.00567e-12
+DICPCG:  Solving for p_rgh, Initial residual = 0.00172255, Final residual = 9.04597e-08, No Iterations 302
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 8.51091e-08, global = 4.65041e-14, cumulative = 1.05217e-12
+ExecutionTime = 140.05 s  ClockTime = 147 s
+
+Courant Number mean: 0.021035 max: 0.493601
+deltaT = 0.627451
+Time = 23.7255
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+PIMPLE: iteration 1
+DICPCG:  Solving for p_rgh, Initial residual = 0.00399737, Final residual = 3.7644e-05, No Iterations 36
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 5.08979e-08, global = -4.37604e-14, cumulative = 1.00841e-12
+DICPCG:  Solving for p_rgh, Initial residual = 0.00171826, Final residual = 9.89914e-08, No Iterations 301
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 8.54132e-08, global = -4.75443e-14, cumulative = 9.60868e-13
+ExecutionTime = 141.25 s  ClockTime = 148 s
+
+Courant Number mean: 0.0207417 max: 0.488519
+deltaT = 0.627451
+Time = 24.3529
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+PIMPLE: iteration 1
+DICPCG:  Solving for p_rgh, Initial residual = 0.00403896, Final residual = 3.95426e-05, No Iterations 34
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 5.09818e-08, global = -2.61335e-14, cumulative = 9.34735e-13
+DICPCG:  Solving for p_rgh, Initial residual = 0.00170205, Final residual = 9.61827e-08, No Iterations 301
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 8.37371e-08, global = 1.6943e-14, cumulative = 9.51678e-13
+ExecutionTime = 142.41 s  ClockTime = 149 s
+
+Courant Number mean: 0.0204523 max: 0.483516
+deltaT = 0.627451
+Time = 24.9804
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+PIMPLE: iteration 1
+DICPCG:  Solving for p_rgh, Initial residual = 0.00398836, Final residual = 3.62324e-05, No Iterations 35
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 4.98279e-08, global = -1.81375e-14, cumulative = 9.3354e-13
+DICPCG:  Solving for p_rgh, Initial residual = 0.0017048, Final residual = 9.47072e-08, No Iterations 301
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 8.5396e-08, global = -1.66403e-14, cumulative = 9.169e-13
+ExecutionTime = 143.58 s  ClockTime = 151 s
+
+Courant Number mean: 0.0201669 max: 0.478576
+deltaT = 0.627451
+Time = 25.6078
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+PIMPLE: iteration 1
+DICPCG:  Solving for p_rgh, Initial residual = 0.00395057, Final residual = 3.55316e-05, No Iterations 34
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 4.82472e-08, global = 3.24581e-14, cumulative = 9.49358e-13
+DICPCG:  Solving for p_rgh, Initial residual = 0.00168788, Final residual = 9.29963e-08, No Iterations 301
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 8.59472e-08, global = -1.9875e-14, cumulative = 9.29483e-13
+ExecutionTime = 144.75 s  ClockTime = 152 s
+
+Courant Number mean: 0.0198854 max: 0.4737
+deltaT = 0.627451
+Time = 26.2353
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+PIMPLE: iteration 1
+DICPCG:  Solving for p_rgh, Initial residual = 0.00393819, Final residual = 3.49312e-05, No Iterations 34
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 4.80645e-08, global = 1.73738e-14, cumulative = 9.46857e-13
+DICPCG:  Solving for p_rgh, Initial residual = 0.00168781, Final residual = 9.93197e-08, No Iterations 300
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 8.53777e-08, global = -1.19795e-14, cumulative = 9.34877e-13
+ExecutionTime = 145.84 s  ClockTime = 153 s
+
+Courant Number mean: 0.0196075 max: 0.469169
+deltaT = 0.627451
+Time = 26.8627
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+PIMPLE: iteration 1
+DICPCG:  Solving for p_rgh, Initial residual = 0.00388903, Final residual = 3.833e-05, No Iterations 32
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 4.84127e-08, global = 5.09183e-14, cumulative = 9.85795e-13
+DICPCG:  Solving for p_rgh, Initial residual = 0.00167346, Final residual = 9.6027e-08, No Iterations 300
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 8.53661e-08, global = 5.20475e-14, cumulative = 1.03784e-12
+ExecutionTime = 146.99 s  ClockTime = 154 s
+
+Courant Number mean: 0.0193332 max: 0.464677
+deltaT = 0.627451
+Time = 27.4902
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+PIMPLE: iteration 1
+DICPCG:  Solving for p_rgh, Initial residual = 0.00387666, Final residual = 3.57758e-05, No Iterations 32
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 4.76022e-08, global = -3.1144e-14, cumulative = 1.0067e-12
+DICPCG:  Solving for p_rgh, Initial residual = 0.00166626, Final residual = 9.11284e-08, No Iterations 300
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 8.46387e-08, global = -7.84566e-15, cumulative = 9.98853e-13
+ExecutionTime = 148.03 s  ClockTime = 155 s
+
+Courant Number mean: 0.0190625 max: 0.460186
+deltaT = 0.627451
+Time = 28.1176
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+PIMPLE: iteration 1
+DICPCG:  Solving for p_rgh, Initial residual = 0.00388089, Final residual = 3.6533e-05, No Iterations 31
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 4.64718e-08, global = -2.89887e-14, cumulative = 9.69864e-13
+DICPCG:  Solving for p_rgh, Initial residual = 0.00166296, Final residual = 8.75885e-08, No Iterations 300
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 8.60109e-08, global = -3.91358e-15, cumulative = 9.65951e-13
+ExecutionTime = 149.1 s  ClockTime = 156 s
+
+Courant Number mean: 0.0187953 max: 0.455727
+deltaT = 0.627451
+Time = 28.7451
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+PIMPLE: iteration 1
+DICPCG:  Solving for p_rgh, Initial residual = 0.00385974, Final residual = 3.84194e-05, No Iterations 30
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 4.78466e-08, global = 3.33802e-14, cumulative = 9.99331e-13
+DICPCG:  Solving for p_rgh, Initial residual = 0.00166443, Final residual = 9.80626e-08, No Iterations 299
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 8.7084e-08, global = -4.86656e-15, cumulative = 9.94465e-13
+ExecutionTime = 150.14 s  ClockTime = 157 s
+
+Courant Number mean: 0.0185317 max: 0.451325
+deltaT = 0.627451
+Time = 29.3725
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+PIMPLE: iteration 1
+DICPCG:  Solving for p_rgh, Initial residual = 0.00382019, Final residual = 3.72501e-05, No Iterations 24
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 4.3277e-08, global = -8.43857e-15, cumulative = 9.86026e-13
+DICPCG:  Solving for p_rgh, Initial residual = 0.00165401, Final residual = 8.09582e-08, No Iterations 299
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 8.39772e-08, global = -3.0569e-15, cumulative = 9.82969e-13
+ExecutionTime = 151.44 s  ClockTime = 159 s
+
+Courant Number mean: 0.0182717 max: 0.446972
+deltaT = 0.627451
+Time = 30
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+PIMPLE: iteration 1
+DICPCG:  Solving for p_rgh, Initial residual = 0.00380659, Final residual = 3.52902e-05, No Iterations 22
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 4.14123e-08, global = -3.55335e-14, cumulative = 9.47436e-13
+DICPCG:  Solving for p_rgh, Initial residual = 0.00164784, Final residual = 9.70703e-08, No Iterations 298
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 8.53406e-08, global = -2.52809e-14, cumulative = 9.22155e-13
+ExecutionTime = 153.31 s  ClockTime = 161 s
+
+Courant Number mean: 0.0180153 max: 0.442675
+deltaT = 0.714286
+Time = 30.7143
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+PIMPLE: iteration 1
+DICPCG:  Solving for p_rgh, Initial residual = 0.00385844, Final residual = 3.50004e-05, No Iterations 22
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 4.72018e-08, global = 5.03592e-14, cumulative = 9.72514e-13
+DICPCG:  Solving for p_rgh, Initial residual = 0.00161448, Final residual = 8.8579e-08, No Iterations 298
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 9.49425e-08, global = 6.90438e-14, cumulative = 1.04156e-12
+ExecutionTime = 154.39 s  ClockTime = 162 s
+
+Courant Number mean: 0.0202203 max: 0.499101
+deltaT = 0.714286
+Time = 31.4286
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+PIMPLE: iteration 1
+DICPCG:  Solving for p_rgh, Initial residual = 0.0037481, Final residual = 3.74733e-05, No Iterations 61
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 6.18517e-08, global = -2.32771e-14, cumulative = 1.01828e-12
+DICPCG:  Solving for p_rgh, Initial residual = 0.00164052, Final residual = 8.99512e-08, No Iterations 297
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 9.51939e-08, global = -4.02191e-14, cumulative = 9.78061e-13
+ExecutionTime = 155.64 s  ClockTime = 163 s
+
+Courant Number mean: 0.0199362 max: 0.494314
+deltaT = 0.714286
+Time = 32.1429
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+PIMPLE: iteration 1
+DICPCG:  Solving for p_rgh, Initial residual = 0.00372412, Final residual = 3.64289e-05, No Iterations 33
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 5.04667e-08, global = 3.98925e-15, cumulative = 9.82051e-13
+DICPCG:  Solving for p_rgh, Initial residual = 0.00163267, Final residual = 8.99035e-08, No Iterations 298
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 9.46474e-08, global = 1.29343e-14, cumulative = 9.94985e-13
+ExecutionTime = 156.86 s  ClockTime = 165 s
+
+Courant Number mean: 0.0196563 max: 0.489609
+deltaT = 0.714286
+Time = 32.8571
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+PIMPLE: iteration 1
+DICPCG:  Solving for p_rgh, Initial residual = 0.00371809, Final residual = 3.50888e-05, No Iterations 24
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 4.8413e-08, global = -2.99616e-14, cumulative = 9.65023e-13
+DICPCG:  Solving for p_rgh, Initial residual = 0.0016319, Final residual = 9.66742e-08, No Iterations 297
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 9.4564e-08, global = -9.36959e-15, cumulative = 9.55654e-13
+ExecutionTime = 158 s  ClockTime = 166 s
+
+Courant Number mean: 0.0193805 max: 0.48496
+deltaT = 0.714286
+Time = 33.5714
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+PIMPLE: iteration 1
+DICPCG:  Solving for p_rgh, Initial residual = 0.00369923, Final residual = 3.50082e-05, No Iterations 22
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 4.56573e-08, global = 1.26615e-14, cumulative = 9.68315e-13
+DICPCG:  Solving for p_rgh, Initial residual = 0.00162842, Final residual = 9.45744e-08, No Iterations 296
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 9.64772e-08, global = -1.5547e-14, cumulative = 9.52768e-13
+ExecutionTime = 159.15 s  ClockTime = 167 s
+
+Courant Number mean: 0.019109 max: 0.480379
+deltaT = 0.714286
+Time = 34.2857
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+PIMPLE: iteration 1
+DICPCG:  Solving for p_rgh, Initial residual = 0.00365934, Final residual = 3.37905e-05, No Iterations 22
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 4.5559e-08, global = 2.41685e-15, cumulative = 9.55185e-13
+DICPCG:  Solving for p_rgh, Initial residual = 0.00161422, Final residual = 9.91846e-08, No Iterations 295
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 9.59749e-08, global = -1.8392e-14, cumulative = 9.36793e-13
+ExecutionTime = 160.26 s  ClockTime = 168 s
+
+Courant Number mean: 0.0188416 max: 0.475849
+deltaT = 0.714286
+Time = 35
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+PIMPLE: iteration 1
+DICPCG:  Solving for p_rgh, Initial residual = 0.00364928, Final residual = 3.5923e-05, No Iterations 22
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 4.57728e-08, global = 5.29084e-14, cumulative = 9.89701e-13
+DICPCG:  Solving for p_rgh, Initial residual = 0.00160532, Final residual = 9.93173e-08, No Iterations 294
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 9.45473e-08, global = 1.09385e-14, cumulative = 1.00064e-12
+ExecutionTime = 161.29 s  ClockTime = 169 s
+
+Courant Number mean: 0.0185783 max: 0.471327
+deltaT = 0.714286
+Time = 35.7143
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+PIMPLE: iteration 1
+DICPCG:  Solving for p_rgh, Initial residual = 0.00360152, Final residual = 3.4407e-05, No Iterations 22
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 4.52583e-08, global = -2.87787e-15, cumulative = 9.97762e-13
+DICPCG:  Solving for p_rgh, Initial residual = 0.0015964, Final residual = 9.5505e-08, No Iterations 295
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 9.34379e-08, global = -1.49548e-14, cumulative = 9.82807e-13
+ExecutionTime = 162.27 s  ClockTime = 170 s
+
+Courant Number mean: 0.0183189 max: 0.466842
+deltaT = 0.714286
+Time = 36.4286
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+PIMPLE: iteration 1
+DICPCG:  Solving for p_rgh, Initial residual = 0.00353107, Final residual = 3.50867e-05, No Iterations 22
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 4.47398e-08, global = 7.66166e-14, cumulative = 1.05942e-12
+DICPCG:  Solving for p_rgh, Initial residual = 0.00157062, Final residual = 9.93484e-08, No Iterations 295
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 9.5942e-08, global = 5.23959e-14, cumulative = 1.11182e-12
+ExecutionTime = 163.32 s  ClockTime = 171 s
+
+Courant Number mean: 0.0180636 max: 0.462414
+deltaT = 0.714286
+Time = 37.1429
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+PIMPLE: iteration 1
+DICPCG:  Solving for p_rgh, Initial residual = 0.00352792, Final residual = 3.35866e-05, No Iterations 22
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 4.47122e-08, global = -3.59685e-14, cumulative = 1.07585e-12
+DICPCG:  Solving for p_rgh, Initial residual = 0.00155973, Final residual = 9.43934e-08, No Iterations 297
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 9.24185e-08, global = -6.14058e-14, cumulative = 1.01445e-12
+ExecutionTime = 164.35 s  ClockTime = 172 s
+
+Courant Number mean: 0.0178125 max: 0.458013
+deltaT = 0.714286
+Time = 37.8571
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+PIMPLE: iteration 1
+DICPCG:  Solving for p_rgh, Initial residual = 0.00349692, Final residual = 3.33658e-05, No Iterations 26
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 4.60216e-08, global = 4.47041e-14, cumulative = 1.05915e-12
+DICPCG:  Solving for p_rgh, Initial residual = 0.00154797, Final residual = 9.80883e-08, No Iterations 296
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 9.50865e-08, global = 3.60743e-14, cumulative = 1.09522e-12
+ExecutionTime = 165.41 s  ClockTime = 173 s
+
+Courant Number mean: 0.0175658 max: 0.453646
+deltaT = 0.714286
+Time = 38.5714
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+PIMPLE: iteration 1
+DICPCG:  Solving for p_rgh, Initial residual = 0.0034534, Final residual = 3.38528e-05, No Iterations 26
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 4.62539e-08, global = -8.78047e-15, cumulative = 1.08644e-12
+DICPCG:  Solving for p_rgh, Initial residual = 0.0015346, Final residual = 8.89996e-08, No Iterations 297
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 9.40442e-08, global = 2.72644e-14, cumulative = 1.11371e-12
+ExecutionTime = 166.54 s  ClockTime = 174 s
+
+Courant Number mean: 0.0173233 max: 0.449342
+deltaT = 0.714286
+Time = 39.2857
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+PIMPLE: iteration 1
+DICPCG:  Solving for p_rgh, Initial residual = 0.00345204, Final residual = 3.3987e-05, No Iterations 26
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 4.61874e-08, global = -9.39764e-15, cumulative = 1.10431e-12
+DICPCG:  Solving for p_rgh, Initial residual = 0.00152698, Final residual = 8.66526e-08, No Iterations 297
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 9.44646e-08, global = -2.75759e-14, cumulative = 1.07673e-12
+ExecutionTime = 167.69 s  ClockTime = 176 s
+
+Courant Number mean: 0.0170851 max: 0.445173
+deltaT = 0.714286
+Time = 40
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+PIMPLE: iteration 1
+DICPCG:  Solving for p_rgh, Initial residual = 0.00341735, Final residual = 3.25354e-05, No Iterations 26
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 4.52683e-08, global = 6.61381e-15, cumulative = 1.08335e-12
+DICPCG:  Solving for p_rgh, Initial residual = 0.0015226, Final residual = 9.0817e-08, No Iterations 297
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 9.62467e-08, global = 1.21223e-14, cumulative = 1.09547e-12
+ExecutionTime = 169.47 s  ClockTime = 178 s
+
+Courant Number mean: 0.0168511 max: 0.440977
+deltaT = 0.769231
+Time = 40.7692
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+PIMPLE: iteration 1
+DICPCG:  Solving for p_rgh, Initial residual = 0.00341756, Final residual = 3.41082e-05, No Iterations 41
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 5.52441e-08, global = -4.36001e-14, cumulative = 1.05187e-12
+DICPCG:  Solving for p_rgh, Initial residual = 0.00150012, Final residual = 9.66618e-08, No Iterations 275
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 9.63519e-08, global = -1.0464e-14, cumulative = 1.04141e-12
+ExecutionTime = 170.54 s  ClockTime = 179 s
+
+Courant Number mean: 0.0179003 max: 0.470298
+deltaT = 0.839161
+Time = 41.6084
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+PIMPLE: iteration 1
+DICPCG:  Solving for p_rgh, Initial residual = 0.00339835, Final residual = 3.25808e-05, No Iterations 32
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 5.657e-08, global = 2.45728e-14, cumulative = 1.06598e-12
+DICPCG:  Solving for p_rgh, Initial residual = 0.00147889, Final residual = 9.95604e-08, No Iterations 297
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 1.09708e-07, global = 3.09041e-14, cumulative = 1.09688e-12
+ExecutionTime = 171.6 s  ClockTime = 180 s
+
+Courant Number mean: 0.0192632 max: 0.507973
+deltaT = 0.839161
+Time = 42.4476
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+PIMPLE: iteration 1
+DICPCG:  Solving for p_rgh, Initial residual = 0.00328739, Final residual = 3.21597e-05, No Iterations 60
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 6.49909e-08, global = -6.58624e-14, cumulative = 1.03102e-12
+DICPCG:  Solving for p_rgh, Initial residual = 0.00147617, Final residual = 8.72837e-08, No Iterations 280
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 1.07276e-07, global = -3.08528e-14, cumulative = 1.00017e-12
+ExecutionTime = 172.66 s  ClockTime = 181 s
+
+Courant Number mean: 0.0190043 max: 0.502863
+deltaT = 0.839161
+Time = 43.2867
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+PIMPLE: iteration 1
+DICPCG:  Solving for p_rgh, Initial residual = 0.00326793, Final residual = 3.24915e-05, No Iterations 60
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 6.56343e-08, global = 3.20247e-15, cumulative = 1.00337e-12
+DICPCG:  Solving for p_rgh, Initial residual = 0.0014667, Final residual = 8.68484e-08, No Iterations 297
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 1.1015e-07, global = 1.92128e-14, cumulative = 1.02258e-12
+ExecutionTime = 173.74 s  ClockTime = 182 s
+
+Courant Number mean: 0.0187508 max: 0.497752
+deltaT = 0.839161
+Time = 44.1259
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+PIMPLE: iteration 1
+DICPCG:  Solving for p_rgh, Initial residual = 0.00319816, Final residual = 3.19804e-05, No Iterations 62
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 6.58944e-08, global = -2.88348e-14, cumulative = 9.93748e-13
+DICPCG:  Solving for p_rgh, Initial residual = 0.00145202, Final residual = 9.56202e-08, No Iterations 280
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 1.10797e-07, global = -5.58165e-15, cumulative = 9.88167e-13
+ExecutionTime = 174.82 s  ClockTime = 183 s
+
+Courant Number mean: 0.0185027 max: 0.492643
+deltaT = 0.839161
+Time = 44.965
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+PIMPLE: iteration 1
+DICPCG:  Solving for p_rgh, Initial residual = 0.00310827, Final residual = 2.98194e-05, No Iterations 63
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 6.43899e-08, global = 1.89039e-14, cumulative = 1.00707e-12
+DICPCG:  Solving for p_rgh, Initial residual = 0.00142224, Final residual = 8.70386e-08, No Iterations 297
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 1.08657e-07, global = 7.62746e-15, cumulative = 1.0147e-12
+ExecutionTime = 175.98 s  ClockTime = 184 s
+
+Courant Number mean: 0.0182597 max: 0.487541
+deltaT = 0.839161
+Time = 45.8042
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+PIMPLE: iteration 1
+DICPCG:  Solving for p_rgh, Initial residual = 0.0030389, Final residual = 2.98152e-05, No Iterations 62
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 6.49962e-08, global = 1.56846e-15, cumulative = 1.01627e-12
+DICPCG:  Solving for p_rgh, Initial residual = 0.00140554, Final residual = 8.69481e-08, No Iterations 297
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 1.07328e-07, global = -2.41248e-14, cumulative = 9.92142e-13
+ExecutionTime = 177.11 s  ClockTime = 186 s
+
+Courant Number mean: 0.018022 max: 0.482452
+deltaT = 0.839161
+Time = 46.6434
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+PIMPLE: iteration 1
+DICPCG:  Solving for p_rgh, Initial residual = 0.00296283, Final residual = 2.80026e-05, No Iterations 63
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 6.28174e-08, global = 5.1953e-16, cumulative = 9.92661e-13
+DICPCG:  Solving for p_rgh, Initial residual = 0.00138098, Final residual = 8.69439e-08, No Iterations 297
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 1.1e-07, global = 2.15747e-15, cumulative = 9.94819e-13
+ExecutionTime = 178.19 s  ClockTime = 187 s
+
+Courant Number mean: 0.0177897 max: 0.477383
+deltaT = 0.839161
+Time = 47.4825
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+PIMPLE: iteration 1
+DICPCG:  Solving for p_rgh, Initial residual = 0.00292785, Final residual = 2.84526e-05, No Iterations 63
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 6.39137e-08, global = 2.9762e-14, cumulative = 1.02458e-12
+DICPCG:  Solving for p_rgh, Initial residual = 0.00136743, Final residual = 8.78979e-08, No Iterations 297
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 1.11e-07, global = -1.19265e-14, cumulative = 1.01265e-12
+ExecutionTime = 179.3 s  ClockTime = 188 s
+
+Courant Number mean: 0.017563 max: 0.472345
+deltaT = 0.839161
+Time = 48.3217
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+PIMPLE: iteration 1
+DICPCG:  Solving for p_rgh, Initial residual = 0.00289165, Final residual = 2.75631e-05, No Iterations 63
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 6.32534e-08, global = 1.20645e-14, cumulative = 1.02472e-12
+DICPCG:  Solving for p_rgh, Initial residual = 0.00135542, Final residual = 9.07672e-08, No Iterations 293
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 1.10438e-07, global = 3.9572e-14, cumulative = 1.06429e-12
+ExecutionTime = 180.39 s  ClockTime = 189 s
+
+Courant Number mean: 0.0173419 max: 0.467341
+deltaT = 0.839161
+Time = 49.1608
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+PIMPLE: iteration 1
+DICPCG:  Solving for p_rgh, Initial residual = 0.00284546, Final residual = 2.81711e-05, No Iterations 63
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 6.35769e-08, global = -3.32745e-14, cumulative = 1.03102e-12
+DICPCG:  Solving for p_rgh, Initial residual = 0.0013378, Final residual = 8.70819e-08, No Iterations 295
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 1.10224e-07, global = -2.02529e-15, cumulative = 1.02899e-12
+ExecutionTime = 181.51 s  ClockTime = 190 s
+
+Courant Number mean: 0.0171264 max: 0.462346
+deltaT = 0.839161
+Time = 50
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+PIMPLE: iteration 1
+DICPCG:  Solving for p_rgh, Initial residual = 0.00283432, Final residual = 2.80374e-05, No Iterations 63
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 6.28467e-08, global = -1.46816e-14, cumulative = 1.01431e-12
+DICPCG:  Solving for p_rgh, Initial residual = 0.00133345, Final residual = 9.92518e-08, No Iterations 291
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 1.11385e-07, global = -6.20136e-15, cumulative = 1.00811e-12
+ExecutionTime = 183.17 s  ClockTime = 192 s
+
+Courant Number mean: 0.0169162 max: 0.457378
+deltaT = 0.909091
+Time = 50.9091
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+PIMPLE: iteration 1
+DICPCG:  Solving for p_rgh, Initial residual = 0.00282447, Final residual = 2.72238e-05, No Iterations 64
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 6.85203e-08, global = -3.83008e-14, cumulative = 9.69807e-13
+DICPCG:  Solving for p_rgh, Initial residual = 0.00130169, Final residual = 8.51256e-08, No Iterations 297
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 1.22383e-07, global = 3.3904e-15, cumulative = 9.73198e-13
+ExecutionTime = 184.32 s  ClockTime = 193 s
+
+Courant Number mean: 0.0181043 max: 0.490109
+deltaT = 0.909091
+Time = 51.8182
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+PIMPLE: iteration 1
+DICPCG:  Solving for p_rgh, Initial residual = 0.00274627, Final residual = 2.72058e-05, No Iterations 68
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 7.5233e-08, global = -9.42654e-15, cumulative = 9.63771e-13
+DICPCG:  Solving for p_rgh, Initial residual = 0.00129723, Final residual = 9.1827e-08, No Iterations 295
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 1.22693e-07, global = -1.40165e-14, cumulative = 9.49755e-13
+ExecutionTime = 185.46 s  ClockTime = 195 s
+
+Courant Number mean: 0.0178889 max: 0.4848
+deltaT = 0.909091
+Time = 52.7273
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+PIMPLE: iteration 1
+DICPCG:  Solving for p_rgh, Initial residual = 0.00268411, Final residual = 2.64292e-05, No Iterations 63
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 7.05108e-08, global = -9.1329e-15, cumulative = 9.40622e-13
+DICPCG:  Solving for p_rgh, Initial residual = 0.00126599, Final residual = 8.84529e-08, No Iterations 297
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 1.2121e-07, global = -2.37885e-14, cumulative = 9.16833e-13
+ExecutionTime = 186.53 s  ClockTime = 196 s
+
+Courant Number mean: 0.0176793 max: 0.479517
+deltaT = 0.909091
+Time = 53.6364
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+PIMPLE: iteration 1
+DICPCG:  Solving for p_rgh, Initial residual = 0.00262767, Final residual = 2.56969e-05, No Iterations 70
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 7.36911e-08, global = 3.33004e-14, cumulative = 9.50134e-13
+DICPCG:  Solving for p_rgh, Initial residual = 0.00124411, Final residual = 9.36399e-08, No Iterations 295
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 1.20345e-07, global = 4.06317e-14, cumulative = 9.90765e-13
+ExecutionTime = 187.66 s  ClockTime = 197 s
+
+Courant Number mean: 0.0174754 max: 0.474367
+deltaT = 0.909091
+Time = 54.5455
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+PIMPLE: iteration 1
+DICPCG:  Solving for p_rgh, Initial residual = 0.00255262, Final residual = 2.47654e-05, No Iterations 71
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 7.27456e-08, global = -2.52939e-14, cumulative = 9.65471e-13
+DICPCG:  Solving for p_rgh, Initial residual = 0.00121511, Final residual = 9.75995e-08, No Iterations 295
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 1.20221e-07, global = 8.90199e-15, cumulative = 9.74373e-13
+ExecutionTime = 188.76 s  ClockTime = 198 s
+
+Courant Number mean: 0.017277 max: 0.469421
+deltaT = 0.909091
+Time = 55.4545
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+PIMPLE: iteration 1
+DICPCG:  Solving for p_rgh, Initial residual = 0.00245878, Final residual = 2.35852e-05, No Iterations 72
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 7.34865e-08, global = -2.17273e-14, cumulative = 9.52646e-13
+DICPCG:  Solving for p_rgh, Initial residual = 0.00119005, Final residual = 9.91569e-08, No Iterations 288
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 1.20559e-07, global = -2.69843e-14, cumulative = 9.25662e-13
+ExecutionTime = 189.89 s  ClockTime = 199 s
+
+Courant Number mean: 0.0170838 max: 0.464508
+deltaT = 0.909091
+Time = 56.3636
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+PIMPLE: iteration 1
+DICPCG:  Solving for p_rgh, Initial residual = 0.00243276, Final residual = 2.42189e-05, No Iterations 72
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 7.29528e-08, global = 3.86479e-14, cumulative = 9.6431e-13
+DICPCG:  Solving for p_rgh, Initial residual = 0.00117252, Final residual = 9.78686e-08, No Iterations 295
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 1.21641e-07, global = -1.40225e-14, cumulative = 9.50287e-13
+ExecutionTime = 191.02 s  ClockTime = 200 s
+
+Courant Number mean: 0.0168964 max: 0.45962
+deltaT = 0.909091
+Time = 57.2727
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+PIMPLE: iteration 1
+DICPCG:  Solving for p_rgh, Initial residual = 0.00238251, Final residual = 2.35707e-05, No Iterations 74
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 7.43458e-08, global = 8.8055e-15, cumulative = 9.59093e-13
+DICPCG:  Solving for p_rgh, Initial residual = 0.00116353, Final residual = 9.6749e-08, No Iterations 295
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 1.21604e-07, global = 8.90142e-15, cumulative = 9.67994e-13
+ExecutionTime = 192.14 s  ClockTime = 201 s
+
+Courant Number mean: 0.0167148 max: 0.454768
+deltaT = 0.909091
+Time = 58.1818
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+PIMPLE: iteration 1
+DICPCG:  Solving for p_rgh, Initial residual = 0.00234062, Final residual = 2.22919e-05, No Iterations 76
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 7.38613e-08, global = -1.21248e-14, cumulative = 9.55869e-13
+DICPCG:  Solving for p_rgh, Initial residual = 0.00115164, Final residual = 9.78283e-08, No Iterations 285
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 1.20321e-07, global = -2.64895e-14, cumulative = 9.2938e-13
+ExecutionTime = 193.25 s  ClockTime = 202 s
+
+Courant Number mean: 0.0165387 max: 0.449955
+deltaT = 0.909091
+Time = 59.0909
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+PIMPLE: iteration 1
+DICPCG:  Solving for p_rgh, Initial residual = 0.00227671, Final residual = 2.21686e-05, No Iterations 74
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 7.31729e-08, global = 2.85211e-14, cumulative = 9.57901e-13
+DICPCG:  Solving for p_rgh, Initial residual = 0.00113123, Final residual = 9.62305e-08, No Iterations 281
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 1.21234e-07, global = 5.55494e-14, cumulative = 1.01345e-12
+ExecutionTime = 194.39 s  ClockTime = 204 s
+
+Courant Number mean: 0.0163681 max: 0.445178
+deltaT = 0.909091
+Time = 60
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+PIMPLE: iteration 1
+DICPCG:  Solving for p_rgh, Initial residual = 0.00223589, Final residual = 2.13279e-05, No Iterations 76
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 7.27413e-08, global = -4.62302e-15, cumulative = 1.00883e-12
+DICPCG:  Solving for p_rgh, Initial residual = 0.00111193, Final residual = 9.37938e-08, No Iterations 295
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 1.20344e-07, global = 1.09321e-14, cumulative = 1.01976e-12
+ExecutionTime = 196.11 s  ClockTime = 206 s
+
+Courant Number mean: 0.0162033 max: 0.440433
+deltaT = 1
+Time = 61
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+PIMPLE: iteration 1
+DICPCG:  Solving for p_rgh, Initial residual = 0.00223698, Final residual = 2.15164e-05, No Iterations 86
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 8.19255e-08, global = -2.3403e-14, cumulative = 9.96356e-13
+DICPCG:  Solving for p_rgh, Initial residual = 0.00106864, Final residual = 9.6379e-08, No Iterations 294
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 1.29006e-07, global = -2.93577e-14, cumulative = 9.66999e-13
+ExecutionTime = 197.33 s  ClockTime = 207 s
+
+Courant Number mean: 0.0176484 max: 0.479302
+deltaT = 1
+Time = 62
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+PIMPLE: iteration 1
+DICPCG:  Solving for p_rgh, Initial residual = 0.00208159, Final residual = 2.0222e-05, No Iterations 76
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 7.60451e-08, global = 1.21366e-14, cumulative = 9.79135e-13
+DICPCG:  Solving for p_rgh, Initial residual = 0.00103419, Final residual = 9.71011e-08, No Iterations 295
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 1.29233e-07, global = -1.21786e-15, cumulative = 9.77917e-13
+ExecutionTime = 198.48 s  ClockTime = 208 s
+
+Courant Number mean: 0.017479 max: 0.474162
+deltaT = 1
+Time = 63
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+PIMPLE: iteration 1
+DICPCG:  Solving for p_rgh, Initial residual = 0.00192625, Final residual = 1.871e-05, No Iterations 77
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 7.73871e-08, global = 4.31013e-14, cumulative = 1.02102e-12
+DICPCG:  Solving for p_rgh, Initial residual = 0.000986246, Final residual = 9.78704e-08, No Iterations 286
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 1.28603e-07, global = 4.69707e-15, cumulative = 1.02572e-12
+ExecutionTime = 199.61 s  ClockTime = 209 s
+
+Courant Number mean: 0.0173153 max: 0.46907
+deltaT = 1
+Time = 64
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+PIMPLE: iteration 1
+DICPCG:  Solving for p_rgh, Initial residual = 0.0018449, Final residual = 1.7991e-05, No Iterations 83
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 7.89702e-08, global = -3.54561e-14, cumulative = 9.9026e-13
+DICPCG:  Solving for p_rgh, Initial residual = 0.000957318, Final residual = 8.89933e-08, No Iterations 294
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 1.30876e-07, global = -2.70553e-14, cumulative = 9.63204e-13
+ExecutionTime = 200.74 s  ClockTime = 211 s
+
+Courant Number mean: 0.017157 max: 0.464024
+deltaT = 1
+Time = 65
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+PIMPLE: iteration 1
+DICPCG:  Solving for p_rgh, Initial residual = 0.00179294, Final residual = 1.76376e-05, No Iterations 84
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 7.91837e-08, global = -6.04477e-15, cumulative = 9.5716e-13
+DICPCG:  Solving for p_rgh, Initial residual = 0.000937514, Final residual = 9.47361e-08, No Iterations 295
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 1.29404e-07, global = 3.16684e-14, cumulative = 9.88828e-13
+ExecutionTime = 201.85 s  ClockTime = 212 s
+
+Courant Number mean: 0.0170038 max: 0.459026
+deltaT = 1
+Time = 66
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+PIMPLE: iteration 1
+DICPCG:  Solving for p_rgh, Initial residual = 0.00173407, Final residual = 1.72087e-05, No Iterations 83
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 7.71924e-08, global = 5.11615e-15, cumulative = 9.93944e-13
+DICPCG:  Solving for p_rgh, Initial residual = 0.000917738, Final residual = 9.27272e-08, No Iterations 295
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 1.31991e-07, global = 3.93147e-14, cumulative = 1.03326e-12
+ExecutionTime = 202.92 s  ClockTime = 213 s
+
+Courant Number mean: 0.0168554 max: 0.454074
+deltaT = 1
+Time = 67
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+PIMPLE: iteration 1
+DICPCG:  Solving for p_rgh, Initial residual = 0.00169936, Final residual = 1.62822e-05, No Iterations 82
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 7.59338e-08, global = -4.9531e-14, cumulative = 9.83728e-13
+DICPCG:  Solving for p_rgh, Initial residual = 0.000903666, Final residual = 8.87588e-08, No Iterations 294
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 1.33066e-07, global = -2.63357e-14, cumulative = 9.57392e-13
+ExecutionTime = 204 s  ClockTime = 214 s
+
+Courant Number mean: 0.0167116 max: 0.449169
+deltaT = 1
+Time = 68
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+PIMPLE: iteration 1
+DICPCG:  Solving for p_rgh, Initial residual = 0.00165522, Final residual = 1.64627e-05, No Iterations 81
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 7.62524e-08, global = -3.70516e-14, cumulative = 9.2034e-13
+DICPCG:  Solving for p_rgh, Initial residual = 0.000886412, Final residual = 9.63992e-08, No Iterations 288
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 1.29415e-07, global = 1.57474e-14, cumulative = 9.36088e-13
+ExecutionTime = 205.06 s  ClockTime = 215 s
+
+Courant Number mean: 0.0165723 max: 0.444315
+deltaT = 1
+Time = 69
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+PIMPLE: iteration 1
+DICPCG:  Solving for p_rgh, Initial residual = 0.00161598, Final residual = 1.61279e-05, No Iterations 81
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 7.69358e-08, global = -8.30924e-15, cumulative = 9.27778e-13
+DICPCG:  Solving for p_rgh, Initial residual = 0.000870622, Final residual = 9.89347e-08, No Iterations 288
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 1.28142e-07, global = -2.23493e-14, cumulative = 9.05429e-13
+ExecutionTime = 206.12 s  ClockTime = 216 s
+
+Courant Number mean: 0.0164373 max: 0.439508
+deltaT = 1
+Time = 70
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+PIMPLE: iteration 1
+DICPCG:  Solving for p_rgh, Initial residual = 0.00157531, Final residual = 1.52534e-05, No Iterations 84
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 7.80131e-08, global = 2.61342e-15, cumulative = 9.08043e-13
+DICPCG:  Solving for p_rgh, Initial residual = 0.000856769, Final residual = 9.29909e-08, No Iterations 294
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 1.29307e-07, global = -4.57651e-14, cumulative = 8.62278e-13
+ExecutionTime = 207.84 s  ClockTime = 218 s
+
+Courant Number mean: 0.0163062 max: 0.434752
+deltaT = 1.11111
+Time = 71.1111
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+PIMPLE: iteration 1
+DICPCG:  Solving for p_rgh, Initial residual = 0.00157171, Final residual = 1.55357e-05, No Iterations 84
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 8.70505e-08, global = 3.57327e-14, cumulative = 8.9801e-13
+DICPCG:  Solving for p_rgh, Initial residual = 0.0008247, Final residual = 9.5032e-08, No Iterations 295
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 1.44078e-07, global = -1.92066e-14, cumulative = 8.78804e-13
+ExecutionTime = 208.95 s  ClockTime = 219 s
+
+Courant Number mean: 0.0179762 max: 0.477791
+deltaT = 1.11111
+Time = 72.2222
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+PIMPLE: iteration 1
+DICPCG:  Solving for p_rgh, Initial residual = 0.00143589, Final residual = 1.34604e-05, No Iterations 191
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 1.26164e-07, global = 1.03156e-13, cumulative = 9.81959e-13
+DICPCG:  Solving for p_rgh, Initial residual = 0.000835064, Final residual = 8.41937e-08, No Iterations 294
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 1.45942e-07, global = 2.69235e-14, cumulative = 1.00888e-12
+ExecutionTime = 210.26 s  ClockTime = 221 s
+
+Courant Number mean: 0.0178379 max: 0.472734
+deltaT = 1.11111
+Time = 73.3333
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+PIMPLE: iteration 1
+DICPCG:  Solving for p_rgh, Initial residual = 0.00136947, Final residual = 1.36942e-05, No Iterations 192
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 1.26465e-07, global = 9.91769e-14, cumulative = 1.10806e-12
+DICPCG:  Solving for p_rgh, Initial residual = 0.000812903, Final residual = 8.68589e-08, No Iterations 294
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 1.47223e-07, global = 5.25648e-14, cumulative = 1.16062e-12
+ExecutionTime = 211.6 s  ClockTime = 222 s
+
+Courant Number mean: 0.0177033 max: 0.467805
+deltaT = 1.11111
+Time = 74.4444
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+PIMPLE: iteration 1
+DICPCG:  Solving for p_rgh, Initial residual = 0.00133898, Final residual = 1.20862e-05, No Iterations 191
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 1.25289e-07, global = -7.75359e-14, cumulative = 1.08309e-12
+DICPCG:  Solving for p_rgh, Initial residual = 0.000798789, Final residual = 9.64528e-08, No Iterations 293
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 1.45857e-07, global = -2.95664e-14, cumulative = 1.05352e-12
+ExecutionTime = 213.02 s  ClockTime = 223 s
+
+Courant Number mean: 0.0175717 max: 0.462921
+deltaT = 1.11111
+Time = 75.5556
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+PIMPLE: iteration 1
+DICPCG:  Solving for p_rgh, Initial residual = 0.00131169, Final residual = 1.26882e-05, No Iterations 194
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 1.2506e-07, global = 8.67577e-15, cumulative = 1.0622e-12
+DICPCG:  Solving for p_rgh, Initial residual = 0.000784384, Final residual = 9.4509e-08, No Iterations 293
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 1.47848e-07, global = -1.57141e-14, cumulative = 1.04648e-12
+ExecutionTime = 214.44 s  ClockTime = 225 s
+
+Courant Number mean: 0.0174433 max: 0.458084
+deltaT = 1.11111
+Time = 76.6667
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+PIMPLE: iteration 1
+DICPCG:  Solving for p_rgh, Initial residual = 0.00128959, Final residual = 1.28667e-05, No Iterations 190
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 1.23956e-07, global = 4.26659e-14, cumulative = 1.08915e-12
+DICPCG:  Solving for p_rgh, Initial residual = 0.000774331, Final residual = 8.70208e-08, No Iterations 293
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 1.48646e-07, global = 6.41361e-16, cumulative = 1.08979e-12
+ExecutionTime = 215.89 s  ClockTime = 226 s
+
+Courant Number mean: 0.0173179 max: 0.453295
+deltaT = 1.11111
+Time = 77.7778
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+PIMPLE: iteration 1
+DICPCG:  Solving for p_rgh, Initial residual = 0.00126661, Final residual = 1.25594e-05, No Iterations 193
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 1.24267e-07, global = 2.8125e-14, cumulative = 1.11792e-12
+DICPCG:  Solving for p_rgh, Initial residual = 0.000762983, Final residual = 9.49574e-08, No Iterations 293
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 1.45714e-07, global = 2.41108e-14, cumulative = 1.14203e-12
+ExecutionTime = 217.19 s  ClockTime = 228 s
+
+Courant Number mean: 0.0171955 max: 0.448553
+deltaT = 1.11111
+Time = 78.8889
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+PIMPLE: iteration 1
+DICPCG:  Solving for p_rgh, Initial residual = 0.00123999, Final residual = 1.22046e-05, No Iterations 188
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 1.23897e-07, global = 9.82825e-16, cumulative = 1.14301e-12
+DICPCG:  Solving for p_rgh, Initial residual = 0.000750878, Final residual = 8.53147e-08, No Iterations 293
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 1.47247e-07, global = -2.31389e-14, cumulative = 1.11987e-12
+ExecutionTime = 218.49 s  ClockTime = 229 s
+
+Courant Number mean: 0.0170759 max: 0.443856
+deltaT = 1.11111
+Time = 80
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+PIMPLE: iteration 1
+DICPCG:  Solving for p_rgh, Initial residual = 0.00121601, Final residual = 1.1399e-05, No Iterations 191
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 1.26917e-07, global = 3.33716e-15, cumulative = 1.12321e-12
+DICPCG:  Solving for p_rgh, Initial residual = 0.00074336, Final residual = 9.36285e-08, No Iterations 293
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 1.47466e-07, global = 1.30776e-14, cumulative = 1.13629e-12
+ExecutionTime = 220.47 s  ClockTime = 232 s
+
+Courant Number mean: 0.0169589 max: 0.439215
+deltaT = 1.25
+Time = 81.25
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+PIMPLE: iteration 1
+DICPCG:  Solving for p_rgh, Initial residual = 0.00123166, Final residual = 1.23027e-05, No Iterations 166
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 1.34555e-07, global = 1.11256e-14, cumulative = 1.14741e-12
+DICPCG:  Solving for p_rgh, Initial residual = 0.000721096, Final residual = 9.87515e-08, No Iterations 293
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 1.665e-07, global = -2.98387e-14, cumulative = 1.11757e-12
+ExecutionTime = 221.8 s  ClockTime = 233 s
+
+Courant Number mean: 0.0189497 max: 0.488956
+deltaT = 1.25
+Time = 82.5
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+PIMPLE: iteration 1
+DICPCG:  Solving for p_rgh, Initial residual = 0.00116349, Final residual = 1.14866e-05, No Iterations 196
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 1.44813e-07, global = 2.05083e-14, cumulative = 1.13808e-12
+DICPCG:  Solving for p_rgh, Initial residual = 0.000717777, Final residual = 9.80543e-08, No Iterations 292
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 1.67854e-07, global = 3.93219e-14, cumulative = 1.1774e-12
+ExecutionTime = 223.13 s  ClockTime = 234 s
+
+Courant Number mean: 0.0188238 max: 0.483817
+deltaT = 1.25
+Time = 83.75
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+PIMPLE: iteration 1
+DICPCG:  Solving for p_rgh, Initial residual = 0.00114184, Final residual = 1.12193e-05, No Iterations 197
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 1.43608e-07, global = -2.07788e-14, cumulative = 1.15662e-12
+DICPCG:  Solving for p_rgh, Initial residual = 0.000705966, Final residual = 8.93052e-08, No Iterations 293
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 1.65104e-07, global = -6.51877e-14, cumulative = 1.09144e-12
+ExecutionTime = 224.53 s  ClockTime = 236 s
+
+Courant Number mean: 0.0187003 max: 0.478741
+deltaT = 1.25
+Time = 85
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+PIMPLE: iteration 1
+DICPCG:  Solving for p_rgh, Initial residual = 0.00112078, Final residual = 1.11864e-05, No Iterations 198
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 1.4495e-07, global = 2.42072e-14, cumulative = 1.11564e-12
+DICPCG:  Solving for p_rgh, Initial residual = 0.000697081, Final residual = 8.70039e-08, No Iterations 292
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 1.64692e-07, global = 4.89642e-14, cumulative = 1.16461e-12
+ExecutionTime = 225.97 s  ClockTime = 237 s
+
+Courant Number mean: 0.018579 max: 0.473717
+deltaT = 1.25
+Time = 86.25
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+PIMPLE: iteration 1
+DICPCG:  Solving for p_rgh, Initial residual = 0.00109494, Final residual = 1.09461e-05, No Iterations 184
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 1.42598e-07, global = 2.19181e-14, cumulative = 1.18653e-12
+DICPCG:  Solving for p_rgh, Initial residual = 0.000684144, Final residual = 8.78236e-08, No Iterations 292
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 1.63272e-07, global = -2.5323e-14, cumulative = 1.1612e-12
+ExecutionTime = 227.34 s  ClockTime = 239 s
+
+Courant Number mean: 0.0184598 max: 0.468744
+deltaT = 1.25
+Time = 87.5
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+PIMPLE: iteration 1
+DICPCG:  Solving for p_rgh, Initial residual = 0.00107289, Final residual = 1.05823e-05, No Iterations 191
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 1.44246e-07, global = 2.51205e-14, cumulative = 1.18632e-12
+DICPCG:  Solving for p_rgh, Initial residual = 0.000677039, Final residual = 9.87394e-08, No Iterations 292
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 1.66575e-07, global = 5.83048e-14, cumulative = 1.24463e-12
+ExecutionTime = 228.85 s  ClockTime = 240 s
+
+Courant Number mean: 0.0183428 max: 0.46383
+deltaT = 1.25
+Time = 88.75
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+PIMPLE: iteration 1
+DICPCG:  Solving for p_rgh, Initial residual = 0.0010529, Final residual = 1.00443e-05, No Iterations 194
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 1.44056e-07, global = -6.31948e-14, cumulative = 1.18143e-12
+DICPCG:  Solving for p_rgh, Initial residual = 0.000665361, Final residual = 8.81202e-08, No Iterations 292
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 1.65885e-07, global = -1.58795e-15, cumulative = 1.17985e-12
+ExecutionTime = 230.25 s  ClockTime = 242 s
+
+Courant Number mean: 0.0182277 max: 0.458967
+deltaT = 1.25
+Time = 90
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+PIMPLE: iteration 1
+DICPCG:  Solving for p_rgh, Initial residual = 0.00103283, Final residual = 1.03056e-05, No Iterations 197
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 1.44641e-07, global = 4.97568e-15, cumulative = 1.18482e-12
+DICPCG:  Solving for p_rgh, Initial residual = 0.000657437, Final residual = 9.80439e-08, No Iterations 292
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 1.65292e-07, global = 7.61057e-15, cumulative = 1.19243e-12
+ExecutionTime = 232.23 s  ClockTime = 244 s
+
+Courant Number mean: 0.0181146 max: 0.454151
+deltaT = 1.42857
+Time = 91.4286
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+PIMPLE: iteration 1
+DICPCG:  Solving for p_rgh, Initial residual = 0.00104942, Final residual = 1.04146e-05, No Iterations 201
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 1.71926e-07, global = -1.32595e-15, cumulative = 1.19111e-12
+DICPCG:  Solving for p_rgh, Initial residual = 0.000648197, Final residual = 8.80729e-08, No Iterations 293
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 1.88199e-07, global = -4.26689e-14, cumulative = 1.14844e-12
+ExecutionTime = 233.67 s  ClockTime = 246 s
+
+Courant Number mean: 0.0205758 max: 0.513501
+deltaT = 1.42857
+Time = 92.8571
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+PIMPLE: iteration 1
+DICPCG:  Solving for p_rgh, Initial residual = 0.000987968, Final residual = 9.14877e-06, No Iterations 203
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 1.72033e-07, global = -8.89522e-15, cumulative = 1.13954e-12
+DICPCG:  Solving for p_rgh, Initial residual = 0.000638176, Final residual = 9.48532e-08, No Iterations 292
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 1.91438e-07, global = 4.41327e-14, cumulative = 1.18367e-12
+ExecutionTime = 235 s  ClockTime = 247 s
+
+Courant Number mean: 0.0204506 max: 0.508135
+deltaT = 1.42857
+Time = 94.2857
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+PIMPLE: iteration 1
+DICPCG:  Solving for p_rgh, Initial residual = 0.000969266, Final residual = 9.42611e-06, No Iterations 202
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 1.71039e-07, global = -7.66336e-14, cumulative = 1.10704e-12
+DICPCG:  Solving for p_rgh, Initial residual = 0.000628528, Final residual = 9.76368e-08, No Iterations 292
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 1.89267e-07, global = -1.1435e-13, cumulative = 9.92691e-13
+ExecutionTime = 236.34 s  ClockTime = 248 s
+
+Courant Number mean: 0.0203274 max: 0.502811
+deltaT = 1.42857
+Time = 95.7143
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+PIMPLE: iteration 1
+DICPCG:  Solving for p_rgh, Initial residual = 0.000950935, Final residual = 9.3682e-06, No Iterations 197
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 1.70263e-07, global = 6.32565e-14, cumulative = 1.05595e-12
+DICPCG:  Solving for p_rgh, Initial residual = 0.00061817, Final residual = 9.91224e-08, No Iterations 292
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 1.87863e-07, global = 5.70808e-14, cumulative = 1.11303e-12
+ExecutionTime = 237.74 s  ClockTime = 250 s
+
+Courant Number mean: 0.0202062 max: 0.497539
+deltaT = 1.42857
+Time = 97.1429
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+PIMPLE: iteration 1
+DICPCG:  Solving for p_rgh, Initial residual = 0.000930911, Final residual = 8.86662e-06, No Iterations 203
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 1.71834e-07, global = 2.64495e-14, cumulative = 1.13948e-12
+DICPCG:  Solving for p_rgh, Initial residual = 0.000611564, Final residual = 9.56216e-08, No Iterations 292
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 1.92819e-07, global = 2.06079e-14, cumulative = 1.16009e-12
+ExecutionTime = 239.11 s  ClockTime = 251 s
+
+Courant Number mean: 0.0200867 max: 0.49233
+deltaT = 1.42857
+Time = 98.5714
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+PIMPLE: iteration 1
+DICPCG:  Solving for p_rgh, Initial residual = 0.000916121, Final residual = 9.15818e-06, No Iterations 201
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 1.70341e-07, global = 3.85533e-14, cumulative = 1.19864e-12
+DICPCG:  Solving for p_rgh, Initial residual = 0.000602269, Final residual = 9.2427e-08, No Iterations 292
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 1.88576e-07, global = 1.88758e-15, cumulative = 1.20053e-12
+ExecutionTime = 240.45 s  ClockTime = 253 s
+
+Courant Number mean: 0.0199692 max: 0.487175
+deltaT = 1.42857
+Time = 100
+
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+PIMPLE: iteration 1
+DICPCG:  Solving for p_rgh, Initial residual = 0.00089743, Final residual = 8.66884e-06, No Iterations 202
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 1.72342e-07, global = 1.31391e-17, cumulative = 1.20054e-12
+DICPCG:  Solving for p_rgh, Initial residual = 0.000594972, Final residual = 9.0405e-08, No Iterations 292
+diagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0
+time step continuity errors : sum local = 1.85652e-07, global = 1.7138e-15, cumulative = 1.20225e-12
+ExecutionTime = 242.42 s  ClockTime = 255 s
+
+End
+

@@ -9,49 +9,24 @@ FoamFile
 {
     version     2.0;
     format      ascii;
-    class       volScalarField;
-    location    "0";
-    object      T;
+    class       dictionary;
+    location    "constant";
+    object      dynamicMeshDict;
 }
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-dimensions      [0 0 0 1 0 0 0];
+dynamicFvMesh   dynamicMotionSolverFvMesh;
 
-internalField   uniform 293;
+motionSolverLibs (fvMotionSolvers);
 
-boundaryField
-{
-    frontAndBack
-    {
-        type            zeroGradient;
-    }
+motionSolver    solidBody;
 
-    topAndBottom
-    {
-        type            zeroGradient;
-    }
+cellZone        innerCylinderSmall;
 
-    hot
-    {
-	type            uniformFixedValue;
-	uniformValue
-        {
-            type            csvFile;
-            nHeaderLine     1;
-            refColumn       0;
-            componentColumns ( 1 );
-            separator       ",";
-            mergeSeparators no;
-            file            "<constant>/temp_profile.csv";
-        }
-    }
+solidBodyMotionFunction  rotatingMotion;
 
-    cold
-    {
-        type            fixedValue;
-        value           uniform 300;
-    }
-}
-
+origin      (0 0 0);
+axis        (0 1 0);
+omega       158; // rad/s
 
 // ************************************************************************* //

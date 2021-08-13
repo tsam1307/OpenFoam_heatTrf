@@ -9,49 +9,14 @@ FoamFile
 {
     version     2.0;
     format      ascii;
-    class       volScalarField;
-    location    "0";
-    object      T;
+    class       dictionary;
+    location    "constant";
+    object      transportProperties;
 }
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-dimensions      [0 0 0 1 0 0 0];
+transportModel  Newtonian;
 
-internalField   uniform 293;
-
-boundaryField
-{
-    frontAndBack
-    {
-        type            zeroGradient;
-    }
-
-    topAndBottom
-    {
-        type            zeroGradient;
-    }
-
-    hot
-    {
-	type            uniformFixedValue;
-	uniformValue
-        {
-            type            csvFile;
-            nHeaderLine     1;
-            refColumn       0;
-            componentColumns ( 1 );
-            separator       ",";
-            mergeSeparators no;
-            file            "<constant>/temp_profile.csv";
-        }
-    }
-
-    cold
-    {
-        type            fixedValue;
-        value           uniform 300;
-    }
-}
-
+nu              1e-6;
 
 // ************************************************************************* //
