@@ -28,15 +28,15 @@ divSchemes
 {
     default         none;
 
-    div(phi,U)      bounded Gauss limitedLinear 0.2;
-    div(phi,K)      bounded Gauss limitedLinear 0.2;
-    div(phi,h)      bounded Gauss limitedLinear 0.2;
-    div(phi,k)      bounded Gauss limitedLinear 0.2;
-    div(phi,epsilon) bounded Gauss limitedLinear 0.2;
-    div(phi,omega) bounded Gauss limitedLinear 0.2;
+    div(phi,U)      Gauss linear;
+    div(phi,K)      Gauss linear;
+    div(phi,h)      Gauss linear;
+    div(phi,k)      Gauss linear;
+    div(phi,epsilon) Gauss linear;
+    div(phi,omega) Gauss linear;
     div(((rho*nuEff)*dev2(T(grad(U))))) Gauss linear;
-    div(phi,R)      Gauss upwind;
-    div(phi,e)      Gauss upwind;
+    div(phi,R)      Gauss linear;
+    div(phi,e)      Gauss linear;
     div(phi,Ekp)    Gauss linear;
     div(R)          Gauss linear;
     div(Ji,Ii_h)    Gauss linearUpwind grad(Ii_h);

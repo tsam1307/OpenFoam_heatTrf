@@ -28,7 +28,7 @@ solvers
 
     }
 
-    "(U|h|k|epsilon|omega|R)"
+    "(U|h|e|k|epsilon|omega|R)"
     {
         solver          PBiCGStab;
         preconditioner  DILU;
@@ -47,11 +47,10 @@ solvers
 	$p_rgh;
 	relTol          0;
     }
-    "(U|h|k|epsilon|omega|R)Final"
+    "(U|h|e|k|epsilon|omega|R)Final"
     {
 	$U;
 	relTol          0;
-	maxIter         0;
     }
 
     Ii

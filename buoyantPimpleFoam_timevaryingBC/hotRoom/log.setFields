@@ -1,0 +1,38 @@
+/*---------------------------------------------------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  v2012                                 |
+|   \\  /    A nd           | Website:  www.openfoam.com                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+Build  : _7bdb509494-20201222 OPENFOAM=2012
+Arch   : "LSB;label=32;scalar=64"
+Exec   : setFields
+Date   : Aug 05 2021
+Time   : 18:49:55
+Host   : DESKTOP-DOBVM7I
+PID    : 964
+I/O    : uncollated
+Case   : /mnt/c/Users/TSam/tutorials/heatTransfer/buoyantPimpleFoam/hotRoom
+nProcs : 1
+trapFpe: Floating point exception trapping enabled (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 5, maxFileModificationPolls 20)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Create mesh for time = 0
+
+Reading setFieldsDict
+
+Setting field default values
+    Setting internal values of volScalarField T
+
+Setting field region values
+    Adding faces with centre within boxes 1((4.5 -1000 4.5) (5.5 1e-05 5.5))
+    Setting patchField values of volScalarField T
+    On patch floor set 4 values
+
+End
+
